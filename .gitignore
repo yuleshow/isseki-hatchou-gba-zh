@@ -1,0 +1,6 @@
+.DS_Store
+assets/*.zip
+assets/*.gba
+work/
+*.sav
+*.ss[0-9]

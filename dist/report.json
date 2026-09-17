@@ -1,0 +1,5689 @@
+{
+  "status": "partial-menu-preview",
+  "sourceSha256": "f8d2857075b2de7b0a13f657dfc8974d211fb271d0c323a1cf65c39360dcdd06",
+  "translationFont": {
+    "name": "Silver",
+    "file": "assets/Silver.ttf",
+    "sha256": "d7a15f3eef3f67809b2ca6c1f457fbbc7b86defdee8d7704f4136adf7c3d532e"
+  },
+  "translated": [
+    {
+      "capture": "select",
+      "top": 89,
+      "text": "模式選擇"
+    },
+    {
+      "capture": "select",
+      "top": 108,
+      "text": "選項"
+    },
+    {
+      "capture": "select",
+      "top": 128,
+      "text": "製作人員"
+    },
+    {
+      "capture": "game-menu",
+      "top": 89,
+      "text": "單人遊戲"
+    },
+    {
+      "capture": "game-menu",
+      "top": 108,
+      "text": "卡匣接力"
+    },
+    {
+      "capture": "game-menu",
+      "top": 128,
+      "text": "多卡匣連線"
+    },
+    {
+      "capture": "sanma",
+      "graphics": 1247056,
+      "graphicsBase": 65536,
+      "top": 8,
+      "text": "三人制",
+      "fill": 2,
+      "outline": 1
+    },
+    {
+      "capture": "mahjong-next-opening",
+      "graphics": 1257172,
+      "graphicsBase": 81920,
+      "rect": {
+        "left": 196,
+        "top": 136,
+        "width": 24,
+        "height": 16
+      },
+      "spriteGeometries": [
+        {
+          "tile": 546,
+          "left": 196,
+          "top": 136,
+          "width": 16,
+          "height": 16
+        },
+        {
+          "tile": 548,
+          "left": 212,
+          "top": 136,
+          "width": 8,
+          "height": 16
+        }
+      ],
+      "spriteTileTargets": {
+        "548": 550
+      },
+      "text": "跳過",
+      "pointSize": 12,
+      "fill": 4,
+      "outline": false
+    },
+    {
+      "capture": "mahjong-dealt",
+      "graphics": 1236300,
+      "graphicsBase": 81920,
+      "rect": {
+        "left": 72,
+        "top": 78,
+        "width": 16,
+        "height": 16
+      },
+      "text": "寶",
+      "pointSize": 12,
+      "fill": 1,
+      "background": 2,
+      "outline": false
+    },
+    {
+      "capture": "mahjong-dealt",
+      "graphics": 1236300,
+      "graphicsBase": 81920,
+      "rect": {
+        "left": 140,
+        "top": 78,
+        "width": 16,
+        "height": 16
+      },
+      "text": "餘",
+      "pointSize": 12,
+      "fill": 1,
+      "background": 2,
+      "outline": false
+    },
+    {
+      "capture": "mahjong-turns-25",
+      "graphics": 1236300,
+      "graphicsBase": 81920,
+      "spriteTiles": [
+        612,
+        614
+      ],
+      "rect": {
+        "left": 116,
+        "top": 116,
+        "width": 36,
+        "height": 16
+      },
+      "text": "吃",
+      "pointSize": 12,
+      "gravity": "west",
+      "fill": 10,
+      "outline": false
+    },
+    {
+      "capture": "mahjong-pon",
+      "graphics": 1236300,
+      "graphicsBase": 81920,
+      "spriteTiles": [
+        604,
+        608
+      ],
+      "rect": {
+        "left": 116,
+        "top": 116,
+        "width": 36,
+        "height": 16
+      },
+      "text": "碰",
+      "pointSize": 12,
+      "gravity": "west",
+      "fill": 10,
+      "outline": false
+    },
+    {
+      "capture": "mahjong-kan-fixture",
+      "graphics": 1236300,
+      "graphicsBase": 81920,
+      "spriteTiles": [
+        618
+      ],
+      "rect": {
+        "left": 116,
+        "top": 116,
+        "width": 16,
+        "height": 16
+      },
+      "text": "槓",
+      "pointSize": 12,
+      "gravity": "west",
+      "fill": 10,
+      "outline": false
+    },
+    {
+      "capture": "mahjong-riichi-fixture",
+      "graphics": 1236300,
+      "graphicsBase": 81920,
+      "spriteTiles": [
+        622
+      ],
+      "spriteGeometries": [
+        {
+          "tile": 622,
+          "width": 32,
+          "height": 16
+        }
+      ],
+      "spriteTileTargets": {
+        "622": 984
+      },
+      "rect": {
+        "left": 116,
+        "top": 116,
+        "width": 32,
+        "height": 16
+      },
+      "text": "立直",
+      "pointSize": 12,
+      "gravity": "west",
+      "fill": 10,
+      "outline": false
+    },
+    {
+      "capture": "mahjong-tsumo-fixture",
+      "graphics": 1236300,
+      "graphicsBase": 81920,
+      "spriteTiles": [
+        630
+      ],
+      "spriteGeometries": [
+        {
+          "tile": 630,
+          "width": 32,
+          "height": 16
+        }
+      ],
+      "spriteTileTargets": {
+        "630": 992
+      },
+      "rect": {
+        "left": 116,
+        "top": 116,
+        "width": 32,
+        "height": 16
+      },
+      "text": "自摸",
+      "pointSize": 12,
+      "gravity": "west",
+      "fill": 10,
+      "outline": false
+    },
+    {
+      "capture": "mahjong-ron-fixture",
+      "graphics": 1236300,
+      "graphicsBase": 81920,
+      "spriteTiles": [
+        634
+      ],
+      "spriteGeometries": [
+        {
+          "tile": 634,
+          "width": 32,
+          "height": 16
+        }
+      ],
+      "spriteTileTargets": {
+        "634": 1000
+      },
+      "rect": {
+        "left": 116,
+        "top": 116,
+        "width": 32,
+        "height": 16
+      },
+      "text": "榮和",
+      "pointSize": 12,
+      "gravity": "west",
+      "fill": 10,
+      "outline": false
+    },
+    {
+      "capture": "mahjong-notice-51-fixture",
+      "graphics": 1236300,
+      "graphicsBase": 81920,
+      "spriteTiles": [
+        688
+      ],
+      "rect": {
+        "left": 102,
+        "top": 108,
+        "width": 16,
+        "height": 16
+      },
+      "text": "碰",
+      "gravity": "west",
+      "textInsetLeft": 2,
+      "pointSize": 12,
+      "fill": 9,
+      "outline": 15
+    },
+    {
+      "capture": "mahjong-notice-52-fixture",
+      "graphics": 1236300,
+      "graphicsBase": 81920,
+      "spriteTiles": [
+        696
+      ],
+      "rect": {
+        "left": 102,
+        "top": 108,
+        "width": 16,
+        "height": 16
+      },
+      "text": "槓",
+      "gravity": "west",
+      "textInsetLeft": 2,
+      "pointSize": 12,
+      "fill": 9,
+      "outline": 15
+    },
+    {
+      "capture": "mahjong-notice-53-fixture",
+      "graphics": 1236300,
+      "graphicsBase": 81920,
+      "spriteTiles": [
+        700,
+        704
+      ],
+      "rect": {
+        "left": 102,
+        "top": 108,
+        "width": 36,
+        "height": 16
+      },
+      "text": "吃",
+      "gravity": "west",
+      "textInsetLeft": 2,
+      "pointSize": 12,
+      "fill": 9,
+      "outline": 15
+    },
+    {
+      "capture": "mahjong-notice-54-fixture",
+      "graphics": 1236300,
+      "graphicsBase": 81920,
+      "spriteTiles": [
+        700,
+        706
+      ],
+      "spriteText": {
+        "700": "直",
+        "706": "立"
+      },
+      "spriteTileTargets": {
+        "700": 626
+      },
+      "rect": {
+        "left": 95,
+        "top": 108,
+        "width": 49,
+        "height": 16
+      },
+      "text": "立直",
+      "pointSize": 12,
+      "fill": 9,
+      "outline": 15
+    },
+    {
+      "capture": "mahjong-notice-55-fixture",
+      "graphics": 1236300,
+      "graphicsBase": 81920,
+      "spriteTiles": [
+        710,
+        714
+      ],
+      "spriteText": {
+        "710": "自",
+        "714": "摸"
+      },
+      "spriteTileTargets": {},
+      "rect": {
+        "left": 97,
+        "top": 108,
+        "width": 34,
+        "height": 16
+      },
+      "text": "自摸",
+      "pointSize": 12,
+      "fill": 9,
+      "outline": 15
+    },
+    {
+      "capture": "mahjong-notice-56-fixture",
+      "graphics": 1236300,
+      "graphicsBase": 81920,
+      "spriteTiles": [
+        692,
+        720
+      ],
+      "spriteText": {
+        "692": "和",
+        "720": "榮"
+      },
+      "spriteTileTargets": {},
+      "rect": {
+        "left": 97,
+        "top": 108,
+        "width": 34,
+        "height": 16
+      },
+      "text": "榮和",
+      "pointSize": 12,
+      "fill": 9,
+      "outline": 15
+    },
+    {
+      "capture": "speed-opening",
+      "graphics": 1375584,
+      "graphicsBase": 65920,
+      "rect": {
+        "left": 157,
+        "top": 52,
+        "width": 62,
+        "height": 40
+      },
+      "text": "按 A 鍵\n出牌",
+      "fill": 4,
+      "background": 1,
+      "outline": false
+    },
+    {
+      "capture": "daifugo-page2",
+      "graphics": 1425552,
+      "graphicsBase": 88320,
+      "spriteTiles": [
+        713
+      ],
+      "rect": {
+        "left": 181,
+        "top": 149,
+        "width": 32,
+        "height": 11
+      },
+      "text": "開始",
+      "pointSize": 8,
+      "fill": 1,
+      "outline": 7
+    },
+    {
+      "capture": "speed-replay-layout",
+      "text": "再玩一局？"
+    },
+    {
+      "capture": "speed-replay-layout",
+      "text": "要"
+    },
+    {
+      "capture": "speed-replay-layout",
+      "text": "不要"
+    },
+    {
+      "capture": "daifugo-replay-layout",
+      "text": "再玩一局？"
+    },
+    {
+      "capture": "daifugo-replay-layout",
+      "text": "要"
+    },
+    {
+      "capture": "daifugo-replay-layout",
+      "text": "不要"
+    },
+    {
+      "capture": "poker-replay-layout",
+      "text": "再玩一局？"
+    },
+    {
+      "capture": "poker-replay-layout",
+      "text": "要"
+    },
+    {
+      "capture": "poker-replay-layout",
+      "text": "不要"
+    },
+    {
+      "capture": "memory-replay-layout",
+      "text": "再玩一局？"
+    },
+    {
+      "capture": "memory-replay-layout",
+      "text": "要"
+    },
+    {
+      "capture": "memory-replay-layout",
+      "text": "不要"
+    },
+    {
+      "capture": "flower-replay-layout",
+      "text": "再玩一局？"
+    },
+    {
+      "capture": "flower-replay-layout",
+      "text": "要"
+    },
+    {
+      "capture": "flower-replay-layout",
+      "text": "不要"
+    },
+    {
+      "capture": "mahjong-pause",
+      "text": "音樂"
+    },
+    {
+      "capture": "mahjong-pause",
+      "text": "音效"
+    },
+    {
+      "capture": "mahjong-pause",
+      "text": "語音"
+    },
+    {
+      "capture": "mahjong-pause",
+      "text": "中止對局"
+    },
+    {
+      "capture": "hanamatch",
+      "text": "花牌配對"
+    },
+    {
+      "capture": "hanamatch",
+      "text": "規則設定"
+    },
+    {
+      "capture": "hanamatch",
+      "text": "電腦等級"
+    },
+    {
+      "capture": "hanamatch",
+      "text": "對局次數"
+    },
+    {
+      "capture": "hanamatch",
+      "text": "月見花見"
+    },
+    {
+      "capture": "hanamatch",
+      "text": "有"
+    },
+    {
+      "capture": "hanamatch",
+      "text": "無"
+    },
+    {
+      "capture": "hanamatch",
+      "text": "雨四光"
+    },
+    {
+      "capture": "hanamatch",
+      "text": "有"
+    },
+    {
+      "capture": "hanamatch",
+      "text": "無"
+    },
+    {
+      "capture": "hanamatch",
+      "text": "表菅原"
+    },
+    {
+      "capture": "hanamatch",
+      "text": "有"
+    },
+    {
+      "capture": "hanamatch",
+      "text": "無"
+    },
+    {
+      "capture": "hanamatch",
+      "text": "種牌役"
+    },
+    {
+      "capture": "hanamatch",
+      "text": "有"
+    },
+    {
+      "capture": "hanamatch",
+      "text": "無"
+    },
+    {
+      "capture": "hanamatch",
+      "text": "名次獎勵"
+    },
+    {
+      "capture": "hanamatch",
+      "text": "有"
+    },
+    {
+      "capture": "hanamatch",
+      "text": "無"
+    },
+    {
+      "capture": "hanamatch",
+      "text": "低分罰則"
+    },
+    {
+      "capture": "hanamatch",
+      "text": "有"
+    },
+    {
+      "capture": "hanamatch",
+      "text": "無"
+    },
+    {
+      "capture": "speed",
+      "text": "極速接龍"
+    },
+    {
+      "capture": "speed",
+      "text": "規則設定"
+    },
+    {
+      "capture": "speed",
+      "text": "電腦等級"
+    },
+    {
+      "capture": "speed",
+      "text": "牌組"
+    },
+    {
+      "capture": "speed",
+      "text": "隨機"
+    },
+    {
+      "capture": "speed",
+      "text": "分色"
+    },
+    {
+      "capture": "speed",
+      "text": "鬼牌"
+    },
+    {
+      "capture": "speed",
+      "text": "使用"
+    },
+    {
+      "capture": "speed",
+      "text": "不使用"
+    },
+    {
+      "capture": "speed",
+      "text": "A與K"
+    },
+    {
+      "capture": "speed",
+      "text": "相接"
+    },
+    {
+      "capture": "speed",
+      "text": "不相接"
+    },
+    {
+      "capture": "daifugo",
+      "text": "大富豪"
+    },
+    {
+      "capture": "daifugo",
+      "text": "規則設定"
+    },
+    {
+      "capture": "daifugo",
+      "text": "電腦等級"
+    },
+    {
+      "capture": "daifugo",
+      "text": "鬼牌張數"
+    },
+    {
+      "capture": "daifugo",
+      "text": "2或鬼牌收尾"
+    },
+    {
+      "capture": "daifugo",
+      "text": "允許"
+    },
+    {
+      "capture": "daifugo",
+      "text": "判負"
+    },
+    {
+      "capture": "daifugo",
+      "text": "跳過後"
+    },
+    {
+      "capture": "daifugo",
+      "text": "可出牌"
+    },
+    {
+      "capture": "daifugo",
+      "text": "禁出牌"
+    },
+    {
+      "capture": "daifugo",
+      "text": "出完後場牌"
+    },
+    {
+      "capture": "daifugo",
+      "text": "清除"
+    },
+    {
+      "capture": "daifugo",
+      "text": "保留"
+    },
+    {
+      "capture": "daifugo",
+      "text": "第二局起由誰先出"
+    },
+    {
+      "capture": "daifugo",
+      "text": "隨機"
+    },
+    {
+      "capture": "daifugo",
+      "text": "末位"
+    },
+    {
+      "capture": "daifugo",
+      "text": "首位"
+    },
+    {
+      "capture": "daifugo-page2",
+      "text": "換牌"
+    },
+    {
+      "capture": "daifugo-page2",
+      "text": "有"
+    },
+    {
+      "capture": "daifugo-page2",
+      "text": "無"
+    },
+    {
+      "capture": "daifugo-page2",
+      "text": "革命"
+    },
+    {
+      "capture": "daifugo-page2",
+      "text": "有"
+    },
+    {
+      "capture": "daifugo-page2",
+      "text": "無"
+    },
+    {
+      "capture": "daifugo-page2",
+      "text": "對子"
+    },
+    {
+      "capture": "daifugo-page2",
+      "text": "有"
+    },
+    {
+      "capture": "daifugo-page2",
+      "text": "無"
+    },
+    {
+      "capture": "daifugo-page2",
+      "text": "連號疊出"
+    },
+    {
+      "capture": "daifugo-page2",
+      "text": "有"
+    },
+    {
+      "capture": "daifugo-page2",
+      "text": "無"
+    },
+    {
+      "capture": "daifugo-page2",
+      "text": "連號"
+    },
+    {
+      "capture": "daifugo-page2",
+      "text": "無"
+    },
+    {
+      "capture": "daifugo-page2",
+      "text": "2張以上"
+    },
+    {
+      "capture": "daifugo-page2",
+      "text": "3張以上"
+    },
+    {
+      "capture": "daifugo-page2",
+      "text": "連號革命"
+    },
+    {
+      "capture": "daifugo-page2",
+      "text": "無"
+    },
+    {
+      "capture": "daifugo-page2",
+      "text": "4張以上"
+    },
+    {
+      "capture": "daifugo-page2",
+      "text": "5張以上"
+    },
+    {
+      "capture": "daifugo-page3",
+      "text": "換座"
+    },
+    {
+      "capture": "daifugo-page3",
+      "text": "有"
+    },
+    {
+      "capture": "daifugo-page3",
+      "text": "無"
+    },
+    {
+      "capture": "daifugo-page3",
+      "text": "富豪落貧"
+    },
+    {
+      "capture": "daifugo-page3",
+      "text": "有"
+    },
+    {
+      "capture": "daifugo-page3",
+      "text": "無"
+    },
+    {
+      "capture": "daifugo-page3",
+      "text": "順子"
+    },
+    {
+      "capture": "daifugo-page3",
+      "text": "有"
+    },
+    {
+      "capture": "daifugo-page3",
+      "text": "無"
+    },
+    {
+      "capture": "daifugo-page3",
+      "text": "花色鎖定"
+    },
+    {
+      "capture": "daifugo-page3",
+      "text": "有"
+    },
+    {
+      "capture": "daifugo-page3",
+      "text": "無"
+    },
+    {
+      "capture": "daifugo-page3",
+      "text": "5跳過"
+    },
+    {
+      "capture": "daifugo-page3",
+      "text": "有"
+    },
+    {
+      "capture": "daifugo-page3",
+      "text": "無"
+    },
+    {
+      "capture": "daifugo-page3",
+      "text": "8切牌"
+    },
+    {
+      "capture": "daifugo-page3",
+      "text": "有"
+    },
+    {
+      "capture": "daifugo-page3",
+      "text": "無"
+    },
+    {
+      "capture": "daifugo-page3",
+      "text": "J反轉"
+    },
+    {
+      "capture": "daifugo-page3",
+      "text": "有"
+    },
+    {
+      "capture": "daifugo-page3",
+      "text": "無"
+    },
+    {
+      "capture": "daifugo-page3",
+      "text": "Q逆轉方向"
+    },
+    {
+      "capture": "daifugo-page3",
+      "text": "有"
+    },
+    {
+      "capture": "daifugo-page3",
+      "text": "無"
+    },
+    {
+      "capture": "memory",
+      "text": "記憶翻牌"
+    },
+    {
+      "capture": "memory",
+      "text": "規則設定"
+    },
+    {
+      "capture": "memory",
+      "text": "電腦等級"
+    },
+    {
+      "capture": "memory",
+      "text": "排列方式"
+    },
+    {
+      "capture": "poker",
+      "text": "撲克"
+    },
+    {
+      "capture": "poker",
+      "text": "規則設定"
+    },
+    {
+      "capture": "poker",
+      "text": "棄牌"
+    },
+    {
+      "capture": "poker",
+      "text": "蓋牌"
+    },
+    {
+      "capture": "poker",
+      "text": "明牌"
+    },
+    {
+      "capture": "poker",
+      "text": "鬼牌張數"
+    },
+    {
+      "capture": "poker",
+      "text": "對局次數"
+    },
+    {
+      "capture": "poker",
+      "text": "加注次數"
+    },
+    {
+      "capture": "koikoi",
+      "text": "花札來來"
+    },
+    {
+      "capture": "koikoi",
+      "text": "規則設定"
+    },
+    {
+      "capture": "koikoi",
+      "text": "電腦等級"
+    },
+    {
+      "capture": "koikoi",
+      "text": "對局次數"
+    },
+    {
+      "capture": "koikoi",
+      "text": "月見花見"
+    },
+    {
+      "capture": "koikoi",
+      "text": "雨四光"
+    },
+    {
+      "capture": "koikoi",
+      "text": "莊家優先"
+    },
+    {
+      "capture": "koikoi",
+      "text": "有"
+    },
+    {
+      "capture": "koikoi",
+      "text": "無"
+    },
+    {
+      "capture": "koikoi",
+      "text": "有"
+    },
+    {
+      "capture": "koikoi",
+      "text": "無"
+    },
+    {
+      "capture": "koikoi",
+      "text": "有"
+    },
+    {
+      "capture": "koikoi",
+      "text": "無"
+    },
+    {
+      "capture": "mahjong-next",
+      "text": "麻將"
+    },
+    {
+      "capture": "mahjong-next",
+      "text": "規則設定"
+    },
+    {
+      "capture": "mahjong-next",
+      "text": "電腦等級"
+    },
+    {
+      "capture": "mahjong-next",
+      "text": "對局"
+    },
+    {
+      "capture": "mahjong-next",
+      "text": "半莊戰"
+    },
+    {
+      "capture": "mahjong-next",
+      "text": "東風戰"
+    },
+    {
+      "capture": "mahjong-next",
+      "text": "起始點"
+    },
+    {
+      "capture": "mahjong-next",
+      "text": "食斷"
+    },
+    {
+      "capture": "mahjong-next",
+      "text": "後付"
+    },
+    {
+      "capture": "mahjong-next",
+      "text": "二翻起和"
+    },
+    {
+      "capture": "mahjong-next",
+      "text": "未聽牌輪莊"
+    },
+    {
+      "capture": "mahjong-next",
+      "text": "有"
+    },
+    {
+      "capture": "mahjong-next",
+      "text": "無"
+    },
+    {
+      "capture": "mahjong-next",
+      "text": "有"
+    },
+    {
+      "capture": "mahjong-next",
+      "text": "無"
+    },
+    {
+      "capture": "mahjong-next",
+      "text": "有"
+    },
+    {
+      "capture": "mahjong-next",
+      "text": "無"
+    },
+    {
+      "capture": "mahjong-next",
+      "text": "有"
+    },
+    {
+      "capture": "mahjong-next",
+      "text": "無"
+    },
+    {
+      "capture": "mahjong",
+      "text": "玩家設定"
+    },
+    {
+      "capture": "mahjong",
+      "text": "觀戰"
+    },
+    {
+      "capture": "mahjong",
+      "text": "觀戰"
+    },
+    {
+      "capture": "mahjong",
+      "text": "觀戰"
+    },
+    {
+      "capture": "mahjong",
+      "text": "觀戰"
+    },
+    {
+      "capture": "games",
+      "text": "遊戲選擇"
+    },
+    {
+      "capture": "games",
+      "text": "麻將"
+    },
+    {
+      "capture": "games",
+      "text": "三人麻將"
+    },
+    {
+      "capture": "games",
+      "text": "花札來來"
+    },
+    {
+      "capture": "games",
+      "text": "花牌配對"
+    },
+    {
+      "capture": "games",
+      "text": "極速接龍"
+    },
+    {
+      "capture": "games",
+      "text": "大富豪"
+    },
+    {
+      "capture": "games",
+      "text": "記憶翻牌"
+    },
+    {
+      "capture": "games",
+      "text": "撲克"
+    },
+    {
+      "capture": "options",
+      "text": "選項設定"
+    },
+    {
+      "capture": "options",
+      "text": "背景音樂"
+    },
+    {
+      "capture": "options",
+      "text": "音效"
+    },
+    {
+      "capture": "options",
+      "text": "語音"
+    },
+    {
+      "capture": "options",
+      "text": "返回"
+    },
+    {
+      "capture": "mahjong-retry-layout",
+      "graphics": 1255224,
+      "text": "再玩一局？",
+      "displayOnly": true
+    },
+    {
+      "capture": "mahjong-retry-layout",
+      "graphics": 1255224,
+      "text": "要",
+      "displayOnly": true
+    },
+    {
+      "capture": "mahjong-retry-layout",
+      "graphics": 1255224,
+      "text": "不要",
+      "displayOnly": true
+    },
+    {
+      "capture": "poker-text-layout",
+      "graphics": 1477528,
+      "text": "高牌",
+      "animation": 0
+    },
+    {
+      "capture": "poker-text-layout",
+      "graphics": 1477528,
+      "text": "一對",
+      "animation": 1
+    },
+    {
+      "capture": "poker-text-layout",
+      "graphics": 1477528,
+      "text": "兩對",
+      "animation": 2
+    },
+    {
+      "capture": "poker-text-layout",
+      "graphics": 1477528,
+      "text": "三條",
+      "animation": 3
+    },
+    {
+      "capture": "poker-text-layout",
+      "graphics": 1477528,
+      "text": "四條",
+      "animation": 4
+    },
+    {
+      "capture": "poker-text-layout",
+      "graphics": 1477528,
+      "text": "五條",
+      "animation": 5
+    },
+    {
+      "capture": "poker-text-layout",
+      "graphics": 1477528,
+      "text": "順子",
+      "animation": 6
+    },
+    {
+      "capture": "poker-text-layout",
+      "graphics": 1477528,
+      "text": "同花",
+      "animation": 7
+    },
+    {
+      "capture": "poker-text-layout",
+      "graphics": 1477528,
+      "text": "葫蘆",
+      "animation": 8
+    },
+    {
+      "capture": "poker-text-layout",
+      "graphics": 1477528,
+      "text": "同花順",
+      "animation": 9
+    },
+    {
+      "capture": "poker-text-layout",
+      "graphics": 1477528,
+      "text": "皇家同花順",
+      "animation": 10
+    },
+    {
+      "capture": "poker-text-layout",
+      "graphics": 1477528,
+      "text": "底注",
+      "animation": 11
+    },
+    {
+      "capture": "poker-text-layout",
+      "graphics": 1477528,
+      "text": "加注",
+      "animation": 12
+    },
+    {
+      "capture": "poker-text-layout",
+      "graphics": 1477528,
+      "text": "下注",
+      "animation": 13
+    },
+    {
+      "capture": "poker-text-layout",
+      "graphics": 1477528,
+      "text": "跟注",
+      "animation": 14
+    },
+    {
+      "capture": "poker-text-layout",
+      "graphics": 1477528,
+      "text": "全下",
+      "animation": 15
+    },
+    {
+      "capture": "poker-text-layout",
+      "graphics": 1477528,
+      "text": "過牌",
+      "animation": 16
+    },
+    {
+      "capture": "poker-text-layout",
+      "graphics": 1477528,
+      "text": "棄牌",
+      "animation": 17
+    },
+    {
+      "capture": "poker-text-layout",
+      "graphics": 1477528,
+      "text": "跟注",
+      "animation": 18
+    },
+    {
+      "capture": "poker-text-layout",
+      "graphics": 1477528,
+      "text": "棄牌",
+      "animation": 19
+    },
+    {
+      "capture": "poker-text-layout",
+      "graphics": 1477528,
+      "text": "加注",
+      "animation": 20
+    },
+    {
+      "capture": "poker-text-layout",
+      "graphics": 1477528,
+      "text": "過牌",
+      "animation": 21
+    },
+    {
+      "capture": "poker-text-layout",
+      "graphics": 1477528,
+      "text": "下注",
+      "animation": 22
+    },
+    {
+      "capture": "poker-text-layout",
+      "graphics": 1477528,
+      "text": "全下",
+      "animation": 23
+    },
+    {
+      "capture": "daifugo-text-layout",
+      "graphics": 1435696,
+      "text": "平民",
+      "animation": 0
+    },
+    {
+      "capture": "daifugo-text-layout",
+      "graphics": 1435696,
+      "text": "1名",
+      "animation": 1
+    },
+    {
+      "capture": "daifugo-text-layout",
+      "graphics": 1435696,
+      "text": "2名",
+      "animation": 2
+    },
+    {
+      "capture": "daifugo-text-layout",
+      "graphics": 1435696,
+      "text": "3名",
+      "animation": 3
+    },
+    {
+      "capture": "daifugo-text-layout",
+      "graphics": 1435696,
+      "text": "4名",
+      "animation": 4
+    },
+    {
+      "capture": "daifugo-text-layout",
+      "graphics": 1435696,
+      "text": "出完",
+      "animation": 5
+    },
+    {
+      "capture": "daifugo-text-layout",
+      "graphics": 1435696,
+      "text": "犯規",
+      "animation": 6
+    },
+    {
+      "capture": "daifugo-text-layout",
+      "graphics": 1435696,
+      "text": "落貧",
+      "animation": 7
+    },
+    {
+      "capture": "daifugo-text-layout",
+      "graphics": 1435696,
+      "text": "不出",
+      "animation": 8
+    },
+    {
+      "capture": "daifugo-text-layout",
+      "graphics": 1435696,
+      "text": "跳過",
+      "animation": 9
+    },
+    {
+      "capture": "daifugo-text-layout",
+      "graphics": 1442888,
+      "text": "8切牌",
+      "animation": 2
+    },
+    {
+      "capture": "daifugo-text-layout",
+      "graphics": 1442888,
+      "text": "逆轉方向",
+      "animation": 6
+    },
+    {
+      "capture": "daifugo-text-layout",
+      "graphics": 1442888,
+      "text": "跳過",
+      "animation": 7
+    },
+    {
+      "capture": "daifugo-text-layout",
+      "graphics": 1442888,
+      "text": "革命",
+      "animation": 0
+    },
+    {
+      "capture": "daifugo-text-layout",
+      "graphics": 1442888,
+      "text": "王政復古",
+      "animation": 1
+    },
+    {
+      "capture": "daifugo-text-layout",
+      "graphics": 1442888,
+      "text": "J反轉",
+      "animation": 3
+    },
+    {
+      "capture": "daifugo-text-layout",
+      "graphics": 1442888,
+      "text": "鎖定",
+      "animation": 4
+    },
+    {
+      "capture": "daifugo-text-layout",
+      "graphics": 1442888,
+      "text": "順子",
+      "animation": 5
+    },
+    {
+      "capture": "daifugo-text-layout",
+      "graphics": 1442888,
+      "text": "出完",
+      "animation": 8
+    },
+    {
+      "capture": "daifugo-text-layout",
+      "graphics": 1442888,
+      "text": "犯規",
+      "animation": 9
+    },
+    {
+      "capture": "daifugo-text-layout",
+      "graphics": 1442888,
+      "text": "守位",
+      "animation": 10
+    },
+    {
+      "capture": "daifugo-text-layout",
+      "graphics": 1442888,
+      "text": "落貧",
+      "animation": 11
+    },
+    {
+      "capture": "daifugo-text-layout",
+      "graphics": 1442888,
+      "text": "結束",
+      "animation": 12
+    },
+    {
+      "capture": "daifugo-text-layout",
+      "graphics": 1442888,
+      "text": "交換中",
+      "animation": 13
+    },
+    {
+      "capture": "daifugo-text-layout",
+      "graphics": 1442888,
+      "text": "這張牌將交出",
+      "animation": 14
+    },
+    {
+      "capture": "daifugo-text-layout",
+      "graphics": 1442888,
+      "text": "這張牌已收到",
+      "animation": 15
+    },
+    {
+      "capture": "daifugo-text-layout",
+      "graphics": 1442888,
+      "text": "請選擇1張牌交出",
+      "animation": 16
+    },
+    {
+      "capture": "daifugo-text-layout",
+      "graphics": 1442888,
+      "text": "請選擇2張牌交出",
+      "animation": 17
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "素牌",
+      "animation": 0
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "短冊",
+      "animation": 15
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "種牌",
+      "animation": 21
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "青短",
+      "animation": 26
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "赤短",
+      "animation": 27
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "素2",
+      "animation": 1
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "素3",
+      "animation": 2
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "素4",
+      "animation": 3
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "素5",
+      "animation": 4
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "素6",
+      "animation": 5
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "素7",
+      "animation": 6
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "素8",
+      "animation": 7
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "素9",
+      "animation": 8
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "素10",
+      "animation": 9
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "素11",
+      "animation": 10
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "素12",
+      "animation": 11
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "素13",
+      "animation": 12
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "素14",
+      "animation": 13
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "素15",
+      "animation": 14
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "短2",
+      "animation": 16
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "短3",
+      "animation": 17
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "短4",
+      "animation": 18
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "短5",
+      "animation": 19
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "短6",
+      "animation": 20
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "種2",
+      "animation": 22
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "種3",
+      "animation": 23
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "種4",
+      "animation": 24
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "種5",
+      "animation": 25
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "藤島",
+      "animation": 36
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "桐島",
+      "animation": 37
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "雨島",
+      "animation": 38
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "低分",
+      "animation": 109
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "繼續",
+      "animation": 39
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "結算",
+      "animation": 39
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "再來",
+      "animation": 42
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "再來",
+      "animation": 42
+    },
+    {
+      "capture": "flower-text-layout",
+      "graphics": 1296660,
+      "text": "結算",
+      "animation": 44
+    }
+  ],
+  "resourceChanges": [
+    {
+      "offset": 998876,
+      "target": 998876,
+      "originalBytes": 2429,
+      "patchedBytes": 1881,
+      "references": []
+    },
+    {
+      "offset": 1247056,
+      "target": 1247056,
+      "originalBytes": 676,
+      "patchedBytes": 533,
+      "references": []
+    },
+    {
+      "offset": 1257172,
+      "target": 4194304,
+      "originalBytes": 531,
+      "patchedBytes": 545,
+      "references": [
+        73132
+      ]
+    },
+    {
+      "offset": 1236300,
+      "target": 1236300,
+      "originalBytes": 2814,
+      "patchedBytes": 2752,
+      "references": []
+    },
+    {
+      "offset": 1375584,
+      "target": 1375584,
+      "originalBytes": 4825,
+      "patchedBytes": 4564,
+      "references": []
+    },
+    {
+      "offset": 1425552,
+      "target": 1425552,
+      "originalBytes": 338,
+      "patchedBytes": 297,
+      "references": []
+    },
+    {
+      "offset": 1385472,
+      "target": 4194852,
+      "originalBytes": 1310,
+      "patchedBytes": 1351,
+      "references": [
+        194448
+      ]
+    },
+    {
+      "offset": 1387908,
+      "target": 1387908,
+      "originalBytes": 424,
+      "patchedBytes": 407,
+      "references": []
+    },
+    {
+      "offset": 1428464,
+      "target": 4196204,
+      "originalBytes": 1332,
+      "patchedBytes": 1369,
+      "references": [
+        219392
+      ]
+    },
+    {
+      "offset": 1427532,
+      "target": 1427532,
+      "originalBytes": 419,
+      "patchedBytes": 401,
+      "references": []
+    },
+    {
+      "offset": 1495900,
+      "target": 4197576,
+      "originalBytes": 1872,
+      "patchedBytes": 1919,
+      "references": [
+        278812
+      ]
+    },
+    {
+      "offset": 1498436,
+      "target": 1498436,
+      "originalBytes": 424,
+      "patchedBytes": 407,
+      "references": []
+    },
+    {
+      "offset": 1540968,
+      "target": 4199496,
+      "originalBytes": 1310,
+      "patchedBytes": 1351,
+      "references": [
+        300980
+      ]
+    },
+    {
+      "offset": 1542892,
+      "target": 1542892,
+      "originalBytes": 424,
+      "patchedBytes": 407,
+      "references": []
+    },
+    {
+      "offset": 1328532,
+      "target": 4200848,
+      "originalBytes": 1726,
+      "patchedBytes": 1782,
+      "references": [
+        131268
+      ]
+    },
+    {
+      "offset": 1327836,
+      "target": 1327836,
+      "originalBytes": 694,
+      "patchedBytes": 682,
+      "references": []
+    },
+    {
+      "offset": 1117284,
+      "target": 1117284,
+      "originalBytes": 3569,
+      "patchedBytes": 3288,
+      "references": []
+    },
+    {
+      "offset": 1120856,
+      "target": 1120856,
+      "originalBytes": 600,
+      "patchedBytes": 577,
+      "references": []
+    },
+    {
+      "offset": 1333968,
+      "target": 1333968,
+      "originalBytes": 2996,
+      "patchedBytes": 2650,
+      "references": []
+    },
+    {
+      "offset": 1330848,
+      "target": 1330848,
+      "originalBytes": 693,
+      "patchedBytes": 667,
+      "references": []
+    },
+    {
+      "offset": 1380812,
+      "target": 1380812,
+      "originalBytes": 2880,
+      "patchedBytes": 2450,
+      "references": []
+    },
+    {
+      "offset": 1383692,
+      "target": 1383692,
+      "originalBytes": 578,
+      "patchedBytes": 519,
+      "references": []
+    },
+    {
+      "offset": 1417100,
+      "target": 1417100,
+      "originalBytes": 4089,
+      "patchedBytes": 3391,
+      "references": []
+    },
+    {
+      "offset": 1415096,
+      "target": 1415096,
+      "originalBytes": 888,
+      "patchedBytes": 822,
+      "references": []
+    },
+    {
+      "offset": 1421192,
+      "target": 1421192,
+      "originalBytes": 2078,
+      "patchedBytes": 1972,
+      "references": []
+    },
+    {
+      "offset": 1415984,
+      "target": 1415984,
+      "originalBytes": 563,
+      "patchedBytes": 492,
+      "references": []
+    },
+    {
+      "offset": 1423272,
+      "target": 1423272,
+      "originalBytes": 2114,
+      "patchedBytes": 1942,
+      "references": []
+    },
+    {
+      "offset": 1416548,
+      "target": 1416548,
+      "originalBytes": 552,
+      "patchedBytes": 505,
+      "references": []
+    },
+    {
+      "offset": 1537952,
+      "target": 1537952,
+      "originalBytes": 2282,
+      "patchedBytes": 1953,
+      "references": []
+    },
+    {
+      "offset": 1540300,
+      "target": 1540300,
+      "originalBytes": 522,
+      "patchedBytes": 489,
+      "references": []
+    },
+    {
+      "offset": 1492732,
+      "target": 1492732,
+      "originalBytes": 2338,
+      "patchedBytes": 2014,
+      "references": []
+    },
+    {
+      "offset": 1495136,
+      "target": 1495136,
+      "originalBytes": 536,
+      "patchedBytes": 483,
+      "references": []
+    },
+    {
+      "offset": 1331544,
+      "target": 1331544,
+      "originalBytes": 2423,
+      "patchedBytes": 2029,
+      "references": []
+    },
+    {
+      "offset": 1330292,
+      "target": 4202632,
+      "originalBytes": 554,
+      "patchedBytes": 565,
+      "references": [
+        120388
+      ]
+    },
+    {
+      "offset": 1244108,
+      "target": 1244108,
+      "originalBytes": 2708,
+      "patchedBytes": 2185,
+      "references": []
+    },
+    {
+      "offset": 1243480,
+      "target": 4203200,
+      "originalBytes": 625,
+      "patchedBytes": 649,
+      "references": [
+        52704
+      ]
+    },
+    {
+      "offset": 1018356,
+      "target": 1018356,
+      "originalBytes": 2175,
+      "patchedBytes": 1929,
+      "references": []
+    },
+    {
+      "offset": 1017868,
+      "target": 1017868,
+      "originalBytes": 488,
+      "patchedBytes": 387,
+      "references": []
+    },
+    {
+      "offset": 1027144,
+      "target": 1027144,
+      "originalBytes": 4841,
+      "patchedBytes": 3790,
+      "references": []
+    },
+    {
+      "offset": 1026188,
+      "target": 1026188,
+      "originalBytes": 953,
+      "patchedBytes": 851,
+      "references": []
+    },
+    {
+      "offset": 1131996,
+      "target": 1131996,
+      "originalBytes": 2338,
+      "patchedBytes": 1950,
+      "references": []
+    },
+    {
+      "offset": 1134336,
+      "target": 1134336,
+      "originalBytes": 545,
+      "patchedBytes": 494,
+      "references": []
+    },
+    {
+      "offset": 1477528,
+      "target": 1477528,
+      "originalBytes": 5804,
+      "patchedBytes": 2455,
+      "references": []
+    },
+    {
+      "offset": 1435696,
+      "target": 1435696,
+      "originalBytes": 3012,
+      "patchedBytes": 2251,
+      "references": []
+    },
+    {
+      "offset": 1442888,
+      "target": 1442888,
+      "originalBytes": 8838,
+      "patchedBytes": 3979,
+      "references": []
+    },
+    {
+      "offset": 1296660,
+      "target": 1296660,
+      "originalBytes": 6268,
+      "patchedBytes": 5522,
+      "references": []
+    },
+    {
+      "offset": 1239148,
+      "target": 1239148,
+      "originalBytes": 2730,
+      "patchedBytes": 2703,
+      "references": []
+    },
+    {
+      "offset": 1269480,
+      "target": 1269480,
+      "originalBytes": 551,
+      "patchedBytes": 260,
+      "references": []
+    },
+    {
+      "offset": 1268584,
+      "target": 1268584,
+      "originalBytes": 585,
+      "patchedBytes": 296,
+      "references": []
+    },
+    {
+      "offset": 1267752,
+      "target": 1267752,
+      "originalBytes": 556,
+      "patchedBytes": 282,
+      "references": []
+    },
+    {
+      "offset": 1270404,
+      "target": 1270404,
+      "originalBytes": 712,
+      "patchedBytes": 360,
+      "references": []
+    },
+    {
+      "offset": 1271180,
+      "target": 1271180,
+      "originalBytes": 577,
+      "patchedBytes": 302,
+      "references": []
+    },
+    {
+      "offset": 1255224,
+      "target": 1255224,
+      "originalBytes": 897,
+      "patchedBytes": 633,
+      "references": []
+    }
+  ],
+  "spriteLayoutChanges": [
+    {
+      "offset": 1221260,
+      "originalTile": 102,
+      "patchedTile": 92,
+      "reason": "Riichi must not reuse the translated chi glyph; use the cleared shared suffix."
+    },
+    {
+      "offset": 1221512,
+      "originalTile": 102,
+      "patchedTile": 92,
+      "reason": "Riichi must not reuse the translated chi glyph; use the cleared shared suffix."
+    },
+    {
+      "offset": 1223384,
+      "originalTile": 188,
+      "patchedTile": 114,
+      "reason": "Riichi bubble uses a dedicated full-size second character instead of the shared chi glyph."
+    },
+    {
+      "offset": 1226036,
+      "originalTile": 188,
+      "patchedTile": 114,
+      "reason": "Riichi bubble uses a dedicated full-size second character instead of the shared chi glyph."
+    },
+    {
+      "offset": 1228688,
+      "originalTile": 188,
+      "patchedTile": 114,
+      "reason": "Riichi bubble uses a dedicated full-size second character instead of the shared chi glyph."
+    },
+    {
+      "offset": 1231340,
+      "originalTile": 188,
+      "patchedTile": 114,
+      "reason": "Riichi bubble uses a dedicated full-size second character instead of the shared chi glyph."
+    },
+    {
+      "offset": 1221284,
+      "originalTile": 114,
+      "patchedTile": 92,
+      "reason": "Keep this suffix blank after repurposing its graphics for a full-size Chinese character."
+    },
+    {
+      "offset": 1221548,
+      "originalTile": 114,
+      "patchedTile": 92,
+      "reason": "Keep this suffix blank after repurposing its graphics for a full-size Chinese character."
+    },
+    {
+      "offset": 1222496,
+      "originalTile": 180,
+      "patchedTile": 92,
+      "reason": "Keep this suffix blank after repurposing its graphics for a full-size Chinese character."
+    },
+    {
+      "offset": 1222796,
+      "originalTile": 180,
+      "patchedTile": 92,
+      "reason": "Keep this suffix blank after repurposing its graphics for a full-size Chinese character."
+    },
+    {
+      "offset": 1225148,
+      "originalTile": 180,
+      "patchedTile": 92,
+      "reason": "Keep this suffix blank after repurposing its graphics for a full-size Chinese character."
+    },
+    {
+      "offset": 1225448,
+      "originalTile": 180,
+      "patchedTile": 92,
+      "reason": "Keep this suffix blank after repurposing its graphics for a full-size Chinese character."
+    },
+    {
+      "offset": 1227788,
+      "originalTile": 180,
+      "patchedTile": 92,
+      "reason": "Keep this suffix blank after repurposing its graphics for a full-size Chinese character."
+    },
+    {
+      "offset": 1228088,
+      "originalTile": 180,
+      "patchedTile": 92,
+      "reason": "Keep this suffix blank after repurposing its graphics for a full-size Chinese character."
+    },
+    {
+      "offset": 1230452,
+      "originalTile": 180,
+      "patchedTile": 92,
+      "reason": "Keep this suffix blank after repurposing its graphics for a full-size Chinese character."
+    },
+    {
+      "offset": 1230752,
+      "originalTile": 180,
+      "patchedTile": 92,
+      "reason": "Keep this suffix blank after repurposing its graphics for a full-size Chinese character."
+    }
+  ],
+  "spriteGeometryChanges": [
+    {
+      "offset": 1256780,
+      "original": "2200e0008800000000010000",
+      "patched": "2200c4008800000000050000"
+    },
+    {
+      "offset": 1256792,
+      "original": "2400c0009000000000080000",
+      "patched": "2600d4008800000000010000"
+    },
+    {
+      "offset": 1221272,
+      "original": "6e0074000000000000050000",
+      "patched": "d80174000000000000090000"
+    },
+    {
+      "offset": 1221524,
+      "original": "6e0074000000000100050000",
+      "patched": "d80174000000000100090000"
+    },
+    {
+      "offset": 1221296,
+      "original": "760074000000000000050000",
+      "patched": "e00174000000000000090000"
+    },
+    {
+      "offset": 1221560,
+      "original": "760074000000000100050000",
+      "patched": "e00174000000000100090000"
+    },
+    {
+      "offset": 1221320,
+      "original": "7a0074000000000000050000",
+      "patched": "e80174000000000000090000"
+    },
+    {
+      "offset": 1221596,
+      "original": "7a0074000000000100050000",
+      "patched": "e80174000000000100090000"
+    }
+  ],
+  "actionTextGraphics": {
+    "target": 4203852,
+    "graphicsBase": 97024,
+    "bytes": 768,
+    "hook": 4204072,
+    "loadChanges": [
+      {
+        "offset": 70746,
+        "original": "eff7e7fb",
+        "patched": "f1f3e5f8"
+      },
+      {
+        "offset": 71926,
+        "original": "eff799f9",
+        "patched": "f0f397fe"
+      }
+    ]
+  },
+  "actionTextColors": {
+    "index": 10,
+    "selected": 1023,
+    "unselected": 992,
+    "paletteOffset": 1219788,
+    "paletteIndex": 1,
+    "original": 0
+  },
+  "resultsFontValidation": {
+    "graphics": 1239148,
+    "glyphChanges": [
+      {
+        "glyph": 0,
+        "original": "自",
+        "text": "自",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 1,
+        "original": "摸",
+        "text": "摸",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 2,
+        "original": "河",
+        "text": "河",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 3,
+        "original": "海",
+        "text": "海",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 4,
+        "original": "底",
+        "text": "底",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 5,
+        "original": "嶺",
+        "text": "嶺",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 6,
+        "original": "上",
+        "text": "上",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 7,
+        "original": "開",
+        "text": "開",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 8,
+        "original": "花",
+        "text": "花",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 9,
+        "original": "槍",
+        "text": "搶",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 10,
+        "original": "立",
+        "text": "立",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 11,
+        "original": "直",
+        "text": "直",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 12,
+        "original": "平",
+        "text": "平",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 13,
+        "original": "断",
+        "text": "断",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 14,
+        "original": "么",
+        "text": "么",
+        "originX": 2,
+        "originY": 1
+      },
+      {
+        "glyph": 15,
+        "original": "盃",
+        "text": "盃",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 16,
+        "original": "口",
+        "text": "口",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 17,
+        "original": "牌",
+        "text": "牌",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 18,
+        "original": "ダ",
+        "text": "ダ",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 19,
+        "original": "ブ",
+        "text": "ブ",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 20,
+        "original": "ル",
+        "text": "ル",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 21,
+        "original": "同",
+        "text": "同",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 22,
+        "original": "順",
+        "text": "順",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 23,
+        "original": "気",
+        "text": "氣",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 24,
+        "original": "通",
+        "text": "通",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 25,
+        "original": "対",
+        "text": "對",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 26,
+        "original": "々",
+        "text": "々",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 27,
+        "original": "全",
+        "text": "全",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 28,
+        "original": "帯",
+        "text": "帶",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 29,
+        "original": "混",
+        "text": "混",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 30,
+        "original": "純",
+        "text": "純",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 31,
+        "original": "二",
+        "text": "二",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 32,
+        "original": "流",
+        "text": "流",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 33,
+        "original": "し",
+        "text": "し",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 34,
+        "original": "発",
+        "text": "發",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 35,
+        "original": "副",
+        "text": "副",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 36,
+        "original": "符",
+        "text": "符",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 37,
+        "original": "天",
+        "text": "天",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 38,
+        "original": "和",
+        "text": "和",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 39,
+        "original": "地",
+        "text": "地",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 40,
+        "original": "人",
+        "text": "人",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 41,
+        "original": "四",
+        "text": "四",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 42,
+        "original": "暗",
+        "text": "暗",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 43,
+        "original": "刻",
+        "text": "刻",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 44,
+        "original": "く",
+        "text": "く",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 45,
+        "original": "単",
+        "text": "単",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 46,
+        "original": "騎",
+        "text": "騎",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 47,
+        "original": "待",
+        "text": "待",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 48,
+        "original": "ち",
+        "text": "ち",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 49,
+        "original": "う",
+        "text": "う",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 50,
+        "original": "国",
+        "text": "國",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 51,
+        "original": "士",
+        "text": "士",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 52,
+        "original": "無",
+        "text": "無",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 53,
+        "original": "双",
+        "text": "雙",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 54,
+        "original": "大",
+        "text": "大",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 55,
+        "original": "三",
+        "text": "三",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 56,
+        "original": "元",
+        "text": "元",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 57,
+        "original": "槓",
+        "text": "槓",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 58,
+        "original": "子",
+        "text": "子",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 59,
+        "original": "九",
+        "text": "九",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 60,
+        "original": "連",
+        "text": "連",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 61,
+        "original": "宝",
+        "text": "寶",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 62,
+        "original": "燈",
+        "text": "燈",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 63,
+        "original": "字",
+        "text": "字",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 64,
+        "original": "一",
+        "text": "一",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 65,
+        "original": "色",
+        "text": "色",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 66,
+        "original": "小",
+        "text": "小",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 67,
+        "original": "喜",
+        "text": "喜",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 68,
+        "original": "緑",
+        "text": "綠",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 69,
+        "original": "清",
+        "text": "清",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 70,
+        "original": "老",
+        "text": "老",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 71,
+        "original": "頭",
+        "text": "頭",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 72,
+        "original": "車",
+        "text": "車",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 73,
+        "original": "輪",
+        "text": "輪",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 74,
+        "original": "百",
+        "text": "百",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 75,
+        "original": "万",
+        "text": "萬",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 76,
+        "original": "石",
+        "text": "石",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 77,
+        "original": "七",
+        "text": "七",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 78,
+        "original": "星",
+        "text": "星",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 79,
+        "original": "十",
+        "text": "十",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 80,
+        "original": "面",
+        "text": "面",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 81,
+        "original": "八",
+        "text": "八",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 82,
+        "original": "荘",
+        "text": "莊",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 83,
+        "original": "紅",
+        "text": "紅",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 84,
+        "original": "役",
+        "text": "役",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 85,
+        "original": "満",
+        "text": "滿",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 86,
+        "original": "点",
+        "text": "點",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 87,
+        "original": "親",
+        "text": "親",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 88,
+        "original": "x",
+        "text": "x",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 89,
+        "original": "0",
+        "text": "0",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 90,
+        "original": "1",
+        "text": "1",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 91,
+        "original": "2",
+        "text": "2",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 92,
+        "original": "3",
+        "text": "3",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 93,
+        "original": "4",
+        "text": "4",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 94,
+        "original": "5",
+        "text": "5",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 95,
+        "original": "6",
+        "text": "6",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 96,
+        "original": "7",
+        "text": "7",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 97,
+        "original": "8",
+        "text": "8",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 98,
+        "original": "9",
+        "text": "9",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 99,
+        "original": "貫",
+        "text": "貫",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 100,
+        "original": "倍",
+        "text": "倍",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 101,
+        "original": "跳",
+        "text": "跳",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 102,
+        "original": "裏",
+        "text": "裏",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 103,
+        "original": "ド",
+        "text": "寶",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 104,
+        "original": "ラ",
+        "text": "牌",
+        "originX": 2,
+        "originY": 2
+      },
+      {
+        "glyph": 105,
+        "original": "翻",
+        "text": "翻",
+        "originX": 2,
+        "originY": 2
+      }
+    ],
+    "smallDigits": [
+      {
+        "tile": 432,
+        "text": "0"
+      },
+      {
+        "tile": 433,
+        "text": "1"
+      },
+      {
+        "tile": 434,
+        "text": "2"
+      },
+      {
+        "tile": 435,
+        "text": "3"
+      },
+      {
+        "tile": 436,
+        "text": "4"
+      },
+      {
+        "tile": 437,
+        "text": "5"
+      },
+      {
+        "tile": 438,
+        "text": "6"
+      },
+      {
+        "tile": 439,
+        "text": "7"
+      },
+      {
+        "tile": 440,
+        "text": "8"
+      },
+      {
+        "tile": 441,
+        "text": "9"
+      }
+    ],
+    "ranks": [
+      {
+        "graphics": 1269480,
+        "glyphs": "貫滿",
+        "text": "滿貫",
+        "fill": 2,
+        "outline": 1
+      },
+      {
+        "graphics": 1268584,
+        "glyphs": "滿跳",
+        "text": "跳滿",
+        "fill": 2,
+        "outline": 1
+      },
+      {
+        "graphics": 1267752,
+        "glyphs": "滿倍",
+        "text": "倍滿",
+        "fill": 2,
+        "outline": 1
+      },
+      {
+        "graphics": 1270404,
+        "glyphs": "滿倍三",
+        "text": "三倍滿",
+        "fill": 2,
+        "outline": 1
+      },
+      {
+        "graphics": 1271180,
+        "glyphs": "役滿",
+        "text": "役滿",
+        "fill": 4,
+        "outline": 6
+      }
+    ],
+    "scope": "Silver text and rank atlases and patch round trips only; natural winning-screen rendering and scoring flow are not yet verified."
+  },
+  "resultsLayoutChanges": [
+    {
+      "offset": 56528,
+      "original": 8460,
+      "patched": 8462,
+      "reason": "Shared yaku/han row advance: 12 -> 14."
+    },
+    {
+      "offset": 56866,
+      "original": 12300,
+      "patched": 12302,
+      "reason": "Dora to ura-dora row advance: 12 -> 14."
+    },
+    {
+      "offset": 57042,
+      "original": 8596,
+      "patched": 8590,
+      "reason": "Summary shared Y: 148 -> 142."
+    },
+    {
+      "offset": 57058,
+      "original": 8852,
+      "patched": 8846,
+      "reason": "Dealer summary Y: 148 -> 142."
+    },
+    {
+      "offset": 57076,
+      "original": 8852,
+      "patched": 8846,
+      "reason": "Non-dealer summary Y: 148 -> 142."
+    }
+  ],
+  "retryDialogValidation": {
+    "graphics": 1255224,
+    "graphicsBase": 89952,
+    "palette": 1254228,
+    "layout": 1254260,
+    "spriteCount": 57,
+    "labels": [
+      {
+        "left": 80,
+        "top": 48,
+        "width": 72,
+        "height": 16,
+        "text": "再玩一局？",
+        "fill": 8
+      },
+      {
+        "left": 104,
+        "top": 68,
+        "width": 48,
+        "height": 16,
+        "text": "要",
+        "fill": 1
+      },
+      {
+        "left": 104,
+        "top": 84,
+        "width": 48,
+        "height": 16,
+        "text": "不要",
+        "fill": 1
+      }
+    ],
+    "scope": "Original sprite layout and palette reconstruction only; natural end-of-match display and A/B continuation are not yet verified."
+  },
+  "backgroundLayoutValidation": [
+    {
+      "capture": "speed-replay-layout",
+      "graphics": 1385472,
+      "map": 1387908,
+      "relatedMaps": [
+        1387296,
+        1387620
+      ],
+      "layoutOnly": true,
+      "labels": [
+        {
+          "left": 0,
+          "top": 8,
+          "width": 80,
+          "height": 24,
+          "text": "再玩一局？",
+          "fill": 8,
+          "outline": 9,
+          "background": 7,
+          "pointSize": 12
+        },
+        {
+          "left": 108,
+          "top": 8,
+          "width": 32,
+          "height": 24,
+          "text": "要",
+          "fill": 8,
+          "outline": 9,
+          "background": 7,
+          "pointSize": 12
+        },
+        {
+          "left": 164,
+          "top": 8,
+          "width": 48,
+          "height": 24,
+          "text": "不要",
+          "fill": 8,
+          "outline": 9,
+          "background": 7,
+          "pointSize": 12
+        }
+      ],
+      "scope": "Offline background layout only; natural result/replay flow and scrolling are not yet verified."
+    },
+    {
+      "capture": "daifugo-replay-layout",
+      "graphics": 1428464,
+      "map": 1427532,
+      "relatedMaps": [
+        1426932,
+        1427248
+      ],
+      "layoutOnly": true,
+      "labels": [
+        {
+          "left": 0,
+          "top": 8,
+          "width": 80,
+          "height": 24,
+          "text": "再玩一局？",
+          "fill": 8,
+          "outline": 9,
+          "background": 7,
+          "pointSize": 12
+        },
+        {
+          "left": 108,
+          "top": 8,
+          "width": 32,
+          "height": 24,
+          "text": "要",
+          "fill": 8,
+          "outline": 9,
+          "background": 7,
+          "pointSize": 12
+        },
+        {
+          "left": 164,
+          "top": 8,
+          "width": 48,
+          "height": 24,
+          "text": "不要",
+          "fill": 8,
+          "outline": 9,
+          "background": 7,
+          "pointSize": 12
+        }
+      ],
+      "scope": "Offline background layout only; natural result/replay flow and scrolling are not yet verified."
+    },
+    {
+      "capture": "poker-replay-layout",
+      "graphics": 1495900,
+      "map": 1498436,
+      "relatedMaps": [
+        1497772,
+        1498148
+      ],
+      "layoutOnly": true,
+      "labels": [
+        {
+          "left": 0,
+          "top": 8,
+          "width": 80,
+          "height": 24,
+          "text": "再玩一局？",
+          "fill": 8,
+          "outline": 9,
+          "background": 7,
+          "pointSize": 12
+        },
+        {
+          "left": 108,
+          "top": 8,
+          "width": 32,
+          "height": 24,
+          "text": "要",
+          "fill": 8,
+          "outline": 9,
+          "background": 7,
+          "pointSize": 12
+        },
+        {
+          "left": 164,
+          "top": 8,
+          "width": 48,
+          "height": 24,
+          "text": "不要",
+          "fill": 8,
+          "outline": 9,
+          "background": 7,
+          "pointSize": 12
+        }
+      ],
+      "scope": "Offline background layout only; natural result/replay flow and scrolling are not yet verified."
+    },
+    {
+      "capture": "memory-replay-layout",
+      "graphics": 1540968,
+      "map": 1542892,
+      "relatedMaps": [
+        1542280,
+        1542604
+      ],
+      "layoutOnly": true,
+      "labels": [
+        {
+          "left": 0,
+          "top": 8,
+          "width": 80,
+          "height": 24,
+          "text": "再玩一局？",
+          "fill": 8,
+          "outline": 9,
+          "background": 7,
+          "pointSize": 12
+        },
+        {
+          "left": 108,
+          "top": 8,
+          "width": 32,
+          "height": 24,
+          "text": "要",
+          "fill": 8,
+          "outline": 9,
+          "background": 7,
+          "pointSize": 12
+        },
+        {
+          "left": 164,
+          "top": 8,
+          "width": 48,
+          "height": 24,
+          "text": "不要",
+          "fill": 8,
+          "outline": 9,
+          "background": 7,
+          "pointSize": 12
+        }
+      ],
+      "scope": "Offline background layout only; natural result/replay flow and scrolling are not yet verified."
+    },
+    {
+      "capture": "flower-replay-layout",
+      "graphics": 1328532,
+      "map": 1327836,
+      "layoutOnly": true,
+      "games": [
+        "koikoi",
+        "hanamatch"
+      ],
+      "graphicsBase": 34176,
+      "mapBase": 55296,
+      "tileBias": 16428,
+      "labels": [
+        {
+          "left": 80,
+          "top": 48,
+          "width": 72,
+          "height": 16,
+          "text": "再玩一局？",
+          "fill": 8,
+          "background": 9,
+          "pointSize": 12
+        },
+        {
+          "left": 104,
+          "top": 72,
+          "width": 48,
+          "height": 16,
+          "text": "要",
+          "fill": 15,
+          "outline": 12,
+          "background": 9,
+          "pointSize": 12
+        },
+        {
+          "left": 104,
+          "top": 88,
+          "width": 48,
+          "height": 16,
+          "text": "不要",
+          "fill": 15,
+          "outline": 12,
+          "background": 9,
+          "pointSize": 12
+        }
+      ],
+      "scope": "Offline background layout only; natural result/replay flow and scrolling are not yet verified."
+    }
+  ],
+  "backgroundLabelValidation": [
+    {
+      "capture": "daifugo-label-layout",
+      "graphics": 1417100,
+      "map": 1415096,
+      "mapBase": 59392,
+      "labels": [
+        {
+          "left": 16,
+          "top": 0,
+          "width": 80,
+          "height": 24,
+          "text": "大富豪",
+          "fill": 6,
+          "outline": 1,
+          "background": 0,
+          "pointSize": 18
+        },
+        {
+          "left": 136,
+          "top": 0,
+          "width": 88,
+          "height": 24,
+          "text": "規則設定",
+          "fill": 12,
+          "outline": 1,
+          "background": 0,
+          "pointSize": 16
+        },
+        {
+          "left": 24,
+          "top": 31,
+          "width": 112,
+          "height": 14,
+          "text": "電腦等級",
+          "fill": 1,
+          "background": 2,
+          "pointSize": 12
+        },
+        {
+          "left": 24,
+          "top": 47,
+          "width": 88,
+          "height": 14,
+          "text": "鬼牌張數",
+          "fill": 1,
+          "background": 3,
+          "pointSize": 12
+        },
+        {
+          "left": 24,
+          "top": 63,
+          "width": 88,
+          "height": 14,
+          "text": "2或鬼牌收尾",
+          "fill": 1,
+          "background": 2,
+          "pointSize": 12
+        },
+        {
+          "left": 128,
+          "top": 63,
+          "width": 40,
+          "height": 14,
+          "text": "允許",
+          "fill": 1,
+          "background": 2,
+          "pointSize": 12
+        },
+        {
+          "left": 176,
+          "top": 63,
+          "width": 48,
+          "height": 14,
+          "text": "判負",
+          "fill": 1,
+          "background": 2,
+          "pointSize": 12
+        },
+        {
+          "left": 24,
+          "top": 79,
+          "width": 88,
+          "height": 14,
+          "text": "跳過後",
+          "fill": 1,
+          "background": 3,
+          "pointSize": 12
+        },
+        {
+          "left": 128,
+          "top": 79,
+          "width": 40,
+          "height": 14,
+          "text": "可出牌",
+          "fill": 1,
+          "background": 3,
+          "pointSize": 12
+        },
+        {
+          "left": 176,
+          "top": 79,
+          "width": 48,
+          "height": 14,
+          "text": "禁出牌",
+          "fill": 1,
+          "background": 3,
+          "pointSize": 12
+        },
+        {
+          "left": 24,
+          "top": 95,
+          "width": 88,
+          "height": 14,
+          "text": "出完後場牌",
+          "fill": 1,
+          "background": 2,
+          "pointSize": 12
+        },
+        {
+          "left": 128,
+          "top": 95,
+          "width": 32,
+          "height": 14,
+          "text": "清除",
+          "fill": 1,
+          "background": 2,
+          "pointSize": 12
+        },
+        {
+          "left": 176,
+          "top": 95,
+          "width": 48,
+          "height": 14,
+          "text": "保留",
+          "fill": 1,
+          "background": 2,
+          "pointSize": 12
+        },
+        {
+          "left": 24,
+          "top": 111,
+          "width": 192,
+          "height": 14,
+          "text": "第二局起由誰先出",
+          "fill": 1,
+          "background": 3,
+          "pointSize": 12
+        },
+        {
+          "left": 32,
+          "top": 127,
+          "width": 56,
+          "height": 14,
+          "text": "隨機",
+          "fill": 1,
+          "background": 2,
+          "pointSize": 12
+        },
+        {
+          "left": 104,
+          "top": 127,
+          "width": 56,
+          "height": 14,
+          "text": "末位",
+          "fill": 1,
+          "background": 2,
+          "pointSize": 12
+        },
+        {
+          "left": 176,
+          "top": 127,
+          "width": 40,
+          "height": 14,
+          "text": "首位",
+          "fill": 1,
+          "background": 2,
+          "pointSize": 12
+        }
+      ]
+    },
+    {
+      "capture": "daifugo-page2-label-layout",
+      "graphics": 1421192,
+      "map": 1415984,
+      "mapBase": 59392,
+      "labels": [
+        {
+          "left": 24,
+          "top": 15,
+          "width": 96,
+          "height": 14,
+          "text": "換牌",
+          "fill": 1,
+          "background": 2,
+          "pointSize": 12
+        },
+        {
+          "left": 136,
+          "top": 15,
+          "width": 32,
+          "height": 14,
+          "text": "有",
+          "fill": 1,
+          "background": 2,
+          "pointSize": 12
+        },
+        {
+          "left": 184,
+          "top": 15,
+          "width": 32,
+          "height": 14,
+          "text": "無",
+          "fill": 1,
+          "background": 2,
+          "pointSize": 12
+        },
+        {
+          "left": 24,
+          "top": 31,
+          "width": 96,
+          "height": 14,
+          "text": "革命",
+          "fill": 1,
+          "background": 3,
+          "pointSize": 12
+        },
+        {
+          "left": 136,
+          "top": 31,
+          "width": 32,
+          "height": 14,
+          "text": "有",
+          "fill": 1,
+          "background": 3,
+          "pointSize": 12
+        },
+        {
+          "left": 184,
+          "top": 31,
+          "width": 32,
+          "height": 14,
+          "text": "無",
+          "fill": 1,
+          "background": 3,
+          "pointSize": 12
+        },
+        {
+          "left": 24,
+          "top": 47,
+          "width": 96,
+          "height": 14,
+          "text": "對子",
+          "fill": 1,
+          "background": 2,
+          "pointSize": 12
+        },
+        {
+          "left": 136,
+          "top": 47,
+          "width": 32,
+          "height": 14,
+          "text": "有",
+          "fill": 1,
+          "background": 2,
+          "pointSize": 12
+        },
+        {
+          "left": 184,
+          "top": 47,
+          "width": 32,
+          "height": 14,
+          "text": "無",
+          "fill": 1,
+          "background": 2,
+          "pointSize": 12
+        },
+        {
+          "left": 24,
+          "top": 127,
+          "width": 96,
+          "height": 14,
+          "text": "連號疊出",
+          "fill": 1,
+          "background": 3,
+          "pointSize": 12
+        },
+        {
+          "left": 136,
+          "top": 127,
+          "width": 32,
+          "height": 14,
+          "text": "有",
+          "fill": 1,
+          "background": 3,
+          "pointSize": 12
+        },
+        {
+          "left": 184,
+          "top": 127,
+          "width": 32,
+          "height": 14,
+          "text": "無",
+          "fill": 1,
+          "background": 3,
+          "pointSize": 12
+        },
+        {
+          "left": 24,
+          "top": 63,
+          "width": 192,
+          "height": 14,
+          "text": "連號",
+          "fill": 1,
+          "background": 3,
+          "pointSize": 12
+        },
+        {
+          "left": 40,
+          "top": 79,
+          "width": 32,
+          "height": 14,
+          "text": "無",
+          "fill": 1,
+          "background": 2,
+          "pointSize": 12
+        },
+        {
+          "left": 88,
+          "top": 79,
+          "width": 56,
+          "height": 14,
+          "text": "2張以上",
+          "fill": 1,
+          "background": 2,
+          "pointSize": 12
+        },
+        {
+          "left": 160,
+          "top": 79,
+          "width": 56,
+          "height": 14,
+          "text": "3張以上",
+          "fill": 1,
+          "background": 2,
+          "pointSize": 12
+        },
+        {
+          "left": 24,
+          "top": 95,
+          "width": 192,
+          "height": 14,
+          "text": "連號革命",
+          "fill": 1,
+          "background": 3,
+          "pointSize": 12
+        },
+        {
+          "left": 40,
+          "top": 111,
+          "width": 32,
+          "height": 14,
+          "text": "無",
+          "fill": 1,
+          "background": 2,
+          "pointSize": 12
+        },
+        {
+          "left": 88,
+          "top": 111,
+          "width": 56,
+          "height": 14,
+          "text": "4張以上",
+          "fill": 1,
+          "background": 2,
+          "pointSize": 12
+        },
+        {
+          "left": 160,
+          "top": 111,
+          "width": 56,
+          "height": 14,
+          "text": "5張以上",
+          "fill": 1,
+          "background": 2,
+          "pointSize": 12
+        }
+      ]
+    },
+    {
+      "capture": "daifugo-page3-label-layout",
+      "graphics": 1423272,
+      "map": 1416548,
+      "mapBase": 59392,
+      "labels": [
+        {
+          "left": 24,
+          "width": 104,
+          "text": "換座",
+          "top": 15,
+          "height": 14,
+          "fill": 1,
+          "background": 2,
+          "pointSize": 12
+        },
+        {
+          "left": 132,
+          "width": 32,
+          "text": "有",
+          "top": 15,
+          "height": 14,
+          "fill": 1,
+          "background": 2,
+          "pointSize": 12
+        },
+        {
+          "left": 180,
+          "width": 32,
+          "text": "無",
+          "top": 15,
+          "height": 14,
+          "fill": 1,
+          "background": 2,
+          "pointSize": 12
+        },
+        {
+          "left": 24,
+          "width": 104,
+          "text": "富豪落貧",
+          "top": 31,
+          "height": 14,
+          "fill": 1,
+          "background": 3,
+          "pointSize": 12
+        },
+        {
+          "left": 132,
+          "width": 32,
+          "text": "有",
+          "top": 31,
+          "height": 14,
+          "fill": 1,
+          "background": 3,
+          "pointSize": 12
+        },
+        {
+          "left": 180,
+          "width": 32,
+          "text": "無",
+          "top": 31,
+          "height": 14,
+          "fill": 1,
+          "background": 3,
+          "pointSize": 12
+        },
+        {
+          "left": 24,
+          "width": 104,
+          "text": "順子",
+          "top": 47,
+          "height": 14,
+          "fill": 1,
+          "background": 2,
+          "pointSize": 12
+        },
+        {
+          "left": 132,
+          "width": 32,
+          "text": "有",
+          "top": 47,
+          "height": 14,
+          "fill": 1,
+          "background": 2,
+          "pointSize": 12
+        },
+        {
+          "left": 180,
+          "width": 32,
+          "text": "無",
+          "top": 47,
+          "height": 14,
+          "fill": 1,
+          "background": 2,
+          "pointSize": 12
+        },
+        {
+          "left": 24,
+          "width": 104,
+          "text": "花色鎖定",
+          "top": 63,
+          "height": 14,
+          "fill": 1,
+          "background": 3,
+          "pointSize": 12
+        },
+        {
+          "left": 132,
+          "width": 32,
+          "text": "有",
+          "top": 63,
+          "height": 14,
+          "fill": 1,
+          "background": 3,
+          "pointSize": 12
+        },
+        {
+          "left": 180,
+          "width": 32,
+          "text": "無",
+          "top": 63,
+          "height": 14,
+          "fill": 1,
+          "background": 3,
+          "pointSize": 12
+        },
+        {
+          "left": 24,
+          "width": 104,
+          "text": "5跳過",
+          "top": 79,
+          "height": 14,
+          "fill": 1,
+          "background": 2,
+          "pointSize": 12
+        },
+        {
+          "left": 132,
+          "width": 32,
+          "text": "有",
+          "top": 79,
+          "height": 14,
+          "fill": 1,
+          "background": 2,
+          "pointSize": 12
+        },
+        {
+          "left": 180,
+          "width": 32,
+          "text": "無",
+          "top": 79,
+          "height": 14,
+          "fill": 1,
+          "background": 2,
+          "pointSize": 12
+        },
+        {
+          "left": 24,
+          "width": 104,
+          "text": "8切牌",
+          "top": 95,
+          "height": 14,
+          "fill": 1,
+          "background": 3,
+          "pointSize": 12
+        },
+        {
+          "left": 132,
+          "width": 32,
+          "text": "有",
+          "top": 95,
+          "height": 14,
+          "fill": 1,
+          "background": 3,
+          "pointSize": 12
+        },
+        {
+          "left": 180,
+          "width": 32,
+          "text": "無",
+          "top": 95,
+          "height": 14,
+          "fill": 1,
+          "background": 3,
+          "pointSize": 12
+        },
+        {
+          "left": 24,
+          "width": 104,
+          "text": "J反轉",
+          "top": 111,
+          "height": 14,
+          "fill": 1,
+          "background": 2,
+          "pointSize": 12
+        },
+        {
+          "left": 132,
+          "width": 32,
+          "text": "有",
+          "top": 111,
+          "height": 14,
+          "fill": 1,
+          "background": 2,
+          "pointSize": 12
+        },
+        {
+          "left": 180,
+          "width": 32,
+          "text": "無",
+          "top": 111,
+          "height": 14,
+          "fill": 1,
+          "background": 2,
+          "pointSize": 12
+        },
+        {
+          "left": 24,
+          "width": 104,
+          "text": "Q逆轉方向",
+          "top": 127,
+          "height": 14,
+          "fill": 1,
+          "background": 3,
+          "pointSize": 12
+        },
+        {
+          "left": 132,
+          "width": 32,
+          "text": "有",
+          "top": 127,
+          "height": 14,
+          "fill": 1,
+          "background": 3,
+          "pointSize": 12
+        },
+        {
+          "left": 180,
+          "width": 32,
+          "text": "無",
+          "top": 127,
+          "height": 14,
+          "fill": 1,
+          "background": 3,
+          "pointSize": 12
+        }
+      ]
+    }
+  ],
+  "pokerTextValidation": {
+    "graphics": 1477528,
+    "graphicsBase": 65536,
+    "table": 1477432,
+    "labels": [
+      {
+        "animation": 0,
+        "text": "高牌",
+        "pointSize": 12,
+        "fill": 1,
+        "background": 7,
+        "width": 64,
+        "height": 16,
+        "layout": 1476208,
+        "spriteCount": 2
+      },
+      {
+        "animation": 1,
+        "text": "一對",
+        "pointSize": 12,
+        "fill": 1,
+        "background": 7,
+        "width": 64,
+        "height": 16,
+        "layout": 1476232,
+        "spriteCount": 2
+      },
+      {
+        "animation": 2,
+        "text": "兩對",
+        "pointSize": 12,
+        "fill": 1,
+        "background": 7,
+        "width": 64,
+        "height": 16,
+        "layout": 1476256,
+        "spriteCount": 2
+      },
+      {
+        "animation": 3,
+        "text": "三條",
+        "pointSize": 12,
+        "fill": 1,
+        "background": 7,
+        "width": 88,
+        "height": 16,
+        "layout": 1476280,
+        "spriteCount": 4
+      },
+      {
+        "animation": 4,
+        "text": "四條",
+        "pointSize": 12,
+        "fill": 1,
+        "background": 7,
+        "width": 88,
+        "height": 16,
+        "layout": 1476328,
+        "spriteCount": 4
+      },
+      {
+        "animation": 5,
+        "text": "五條",
+        "pointSize": 12,
+        "fill": 1,
+        "background": 7,
+        "width": 104,
+        "height": 16,
+        "layout": 1476376,
+        "spriteCount": 4
+      },
+      {
+        "animation": 6,
+        "text": "順子",
+        "pointSize": 12,
+        "fill": 1,
+        "background": 7,
+        "width": 72,
+        "height": 16,
+        "layout": 1476424,
+        "spriteCount": 3
+      },
+      {
+        "animation": 7,
+        "text": "同花",
+        "pointSize": 12,
+        "fill": 1,
+        "background": 7,
+        "width": 72,
+        "height": 16,
+        "layout": 1476460,
+        "spriteCount": 3
+      },
+      {
+        "animation": 8,
+        "text": "葫蘆",
+        "pointSize": 12,
+        "fill": 1,
+        "background": 7,
+        "width": 72,
+        "height": 16,
+        "layout": 1476496,
+        "spriteCount": 3
+      },
+      {
+        "animation": 9,
+        "text": "同花順",
+        "pointSize": 12,
+        "fill": 1,
+        "background": 7,
+        "width": 144,
+        "height": 16,
+        "layout": 1476532,
+        "spriteCount": 5
+      },
+      {
+        "animation": 10,
+        "text": "皇家同花順",
+        "pointSize": 12,
+        "fill": 1,
+        "background": 7,
+        "width": 144,
+        "height": 16,
+        "layout": 1476592,
+        "spriteCount": 6
+      },
+      {
+        "animation": 11,
+        "text": "底注",
+        "pointSize": 12,
+        "fill": 7,
+        "background": 12,
+        "width": 56,
+        "height": 16,
+        "layout": 1476664,
+        "spriteCount": 3
+      },
+      {
+        "animation": 12,
+        "text": "加注",
+        "pointSize": 12,
+        "fill": 7,
+        "background": 12,
+        "width": 48,
+        "height": 16,
+        "layout": 1476700,
+        "spriteCount": 3
+      },
+      {
+        "animation": 13,
+        "text": "下注",
+        "pointSize": 12,
+        "fill": 7,
+        "background": 12,
+        "width": 48,
+        "height": 16,
+        "layout": 1476736,
+        "spriteCount": 2
+      },
+      {
+        "animation": 14,
+        "text": "跟注",
+        "pointSize": 12,
+        "fill": 7,
+        "background": 12,
+        "width": 48,
+        "height": 16,
+        "layout": 1476760,
+        "spriteCount": 2
+      },
+      {
+        "animation": 15,
+        "text": "全下",
+        "pointSize": 12,
+        "fill": 7,
+        "background": 12,
+        "width": 88,
+        "height": 16,
+        "layout": 1476784,
+        "spriteCount": 4
+      },
+      {
+        "animation": 16,
+        "text": "過牌",
+        "pointSize": 12,
+        "fill": 7,
+        "background": 12,
+        "width": 64,
+        "height": 16,
+        "layout": 1476832,
+        "spriteCount": 2
+      },
+      {
+        "animation": 17,
+        "text": "棄牌",
+        "pointSize": 12,
+        "fill": 7,
+        "background": 12,
+        "width": 72,
+        "height": 16,
+        "layout": 1476856,
+        "spriteCount": 4
+      },
+      {
+        "animation": 18,
+        "text": "跟注",
+        "pointSize": 12,
+        "fill": 7,
+        "background": 12,
+        "width": 40,
+        "height": 16,
+        "layout": 1476904,
+        "spriteCount": 2
+      },
+      {
+        "animation": 19,
+        "text": "棄牌",
+        "pointSize": 12,
+        "fill": 7,
+        "background": 12,
+        "width": 40,
+        "height": 16,
+        "layout": 1476928,
+        "spriteCount": 2
+      },
+      {
+        "animation": 20,
+        "text": "加注",
+        "pointSize": 12,
+        "fill": 7,
+        "background": 12,
+        "width": 40,
+        "height": 16,
+        "layout": 1476952,
+        "spriteCount": 2
+      },
+      {
+        "animation": 21,
+        "text": "過牌",
+        "pointSize": 12,
+        "fill": 7,
+        "background": 12,
+        "width": 40,
+        "height": 16,
+        "layout": 1476976,
+        "spriteCount": 2
+      },
+      {
+        "animation": 22,
+        "text": "下注",
+        "pointSize": 12,
+        "fill": 7,
+        "background": 12,
+        "width": 40,
+        "height": 16,
+        "layout": 1477000,
+        "spriteCount": 2
+      },
+      {
+        "animation": 23,
+        "text": "全下",
+        "pointSize": 12,
+        "fill": 7,
+        "background": 12,
+        "width": 40,
+        "height": 16,
+        "layout": 1477024,
+        "spriteCount": 2
+      }
+    ]
+  },
+  "daifugoTextValidation": {
+    "scope": "Ten seat labels, fourteen announcements and four exchange instructions; original sprite layouts and animations preserved. Natural exchange and special-rule events are not fully verified.",
+    "labels": [
+      {
+        "graphics": 1435696,
+        "graphicsBase": 65536,
+        "table": 1435600,
+        "animation": 0,
+        "text": "平民",
+        "pointSize": 12,
+        "status": true,
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 30,
+          "height": 14
+        },
+        "layout": 1434044,
+        "spriteCount": 1
+      },
+      {
+        "graphics": 1435696,
+        "graphicsBase": 65536,
+        "table": 1435600,
+        "animation": 1,
+        "text": "1名",
+        "pointSize": 12,
+        "status": true,
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 30,
+          "height": 14
+        },
+        "layout": 1434056,
+        "spriteCount": 1
+      },
+      {
+        "graphics": 1435696,
+        "graphicsBase": 65536,
+        "table": 1435600,
+        "animation": 2,
+        "text": "2名",
+        "pointSize": 12,
+        "status": true,
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 30,
+          "height": 14
+        },
+        "layout": 1434068,
+        "spriteCount": 1
+      },
+      {
+        "graphics": 1435696,
+        "graphicsBase": 65536,
+        "table": 1435600,
+        "animation": 3,
+        "text": "3名",
+        "pointSize": 12,
+        "status": true,
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 30,
+          "height": 14
+        },
+        "layout": 1434080,
+        "spriteCount": 1
+      },
+      {
+        "graphics": 1435696,
+        "graphicsBase": 65536,
+        "table": 1435600,
+        "animation": 4,
+        "text": "4名",
+        "pointSize": 12,
+        "status": true,
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 30,
+          "height": 14
+        },
+        "layout": 1434092,
+        "spriteCount": 1
+      },
+      {
+        "graphics": 1435696,
+        "graphicsBase": 65536,
+        "table": 1435600,
+        "animation": 5,
+        "text": "出完",
+        "pointSize": 12,
+        "status": true,
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 30,
+          "height": 14
+        },
+        "layout": 1434104,
+        "spriteCount": 1
+      },
+      {
+        "graphics": 1435696,
+        "graphicsBase": 65536,
+        "table": 1435600,
+        "animation": 6,
+        "text": "犯規",
+        "pointSize": 12,
+        "status": true,
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 30,
+          "height": 14
+        },
+        "layout": 1434116,
+        "spriteCount": 1
+      },
+      {
+        "graphics": 1435696,
+        "graphicsBase": 65536,
+        "table": 1435600,
+        "animation": 7,
+        "text": "落貧",
+        "pointSize": 12,
+        "status": true,
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 30,
+          "height": 14
+        },
+        "layout": 1434128,
+        "spriteCount": 1
+      },
+      {
+        "graphics": 1435696,
+        "graphicsBase": 65536,
+        "table": 1435600,
+        "animation": 8,
+        "text": "不出",
+        "pointSize": 12,
+        "small": true,
+        "layout": 1434140,
+        "spriteCount": 1
+      },
+      {
+        "graphics": 1435696,
+        "graphicsBase": 65536,
+        "table": 1435600,
+        "animation": 9,
+        "text": "跳過",
+        "pointSize": 12,
+        "small": true,
+        "layout": 1434152,
+        "spriteCount": 1
+      },
+      {
+        "graphics": 1442888,
+        "graphicsBase": 71648,
+        "table": 1442772,
+        "animation": 2,
+        "text": "8切牌",
+        "pointSize": 16,
+        "spriteCount": 6,
+        "rect": {
+          "left": 92,
+          "top": 65,
+          "width": 56,
+          "height": 22
+        },
+        "layout": 1438948
+      },
+      {
+        "graphics": 1442888,
+        "graphicsBase": 71648,
+        "table": 1442772,
+        "animation": 6,
+        "text": "逆轉方向",
+        "pointSize": 16,
+        "spriteCount": 6,
+        "rect": {
+          "left": 84,
+          "top": 65,
+          "width": 72,
+          "height": 22
+        },
+        "layout": 1439512
+      },
+      {
+        "graphics": 1442888,
+        "graphicsBase": 71648,
+        "table": 1442772,
+        "animation": 7,
+        "text": "跳過",
+        "pointSize": 18,
+        "spriteCount": 6,
+        "rect": {
+          "left": 82,
+          "top": 65,
+          "width": 72,
+          "height": 22
+        },
+        "layout": 1439656
+      },
+      {
+        "graphics": 1442888,
+        "graphicsBase": 71648,
+        "table": 1442772,
+        "animation": 0,
+        "text": "革命",
+        "pointSize": 16,
+        "spriteCount": 4,
+        "rect": {
+          "left": 100,
+          "top": 65,
+          "width": 40,
+          "height": 22
+        },
+        "layout": 1438708
+      },
+      {
+        "graphics": 1442888,
+        "graphicsBase": 71648,
+        "table": 1442772,
+        "animation": 1,
+        "text": "王政復古",
+        "pointSize": 16,
+        "spriteCount": 6,
+        "rect": {
+          "left": 80,
+          "top": 65,
+          "width": 79,
+          "height": 22
+        },
+        "layout": 1438804
+      },
+      {
+        "graphics": 1442888,
+        "graphicsBase": 71648,
+        "table": 1442772,
+        "animation": 3,
+        "text": "J反轉",
+        "pointSize": 16,
+        "spriteCount": 9,
+        "rect": {
+          "left": 56,
+          "top": 65,
+          "width": 128,
+          "height": 22
+        },
+        "layout": 1439092
+      },
+      {
+        "graphics": 1442888,
+        "graphicsBase": 71648,
+        "table": 1442772,
+        "animation": 4,
+        "text": "鎖定",
+        "pointSize": 16,
+        "spriteCount": 4,
+        "rect": {
+          "left": 100,
+          "top": 65,
+          "width": 40,
+          "height": 22
+        },
+        "layout": 1439320
+      },
+      {
+        "graphics": 1442888,
+        "graphicsBase": 71648,
+        "table": 1442772,
+        "animation": 5,
+        "text": "順子",
+        "pointSize": 16,
+        "spriteCount": 4,
+        "rect": {
+          "left": 100,
+          "top": 65,
+          "width": 40,
+          "height": 22
+        },
+        "layout": 1439416
+      },
+      {
+        "graphics": 1442888,
+        "graphicsBase": 71648,
+        "table": 1442772,
+        "animation": 8,
+        "text": "出完",
+        "pointSize": 16,
+        "spriteCount": 6,
+        "rect": {
+          "left": 92,
+          "top": 66,
+          "width": 56,
+          "height": 22
+        },
+        "layout": 1439800
+      },
+      {
+        "graphics": 1442888,
+        "graphicsBase": 71648,
+        "table": 1442772,
+        "animation": 9,
+        "text": "犯規",
+        "pointSize": 16,
+        "spriteCount": 4,
+        "rect": {
+          "left": 99,
+          "top": 65,
+          "width": 40,
+          "height": 22
+        },
+        "layout": 1439944
+      },
+      {
+        "graphics": 1442888,
+        "graphicsBase": 71648,
+        "table": 1442772,
+        "animation": 10,
+        "text": "守位",
+        "pointSize": 16,
+        "spriteCount": 5,
+        "rect": {
+          "left": 100,
+          "top": 65,
+          "width": 40,
+          "height": 22
+        },
+        "layout": 1440040
+      },
+      {
+        "graphics": 1442888,
+        "graphicsBase": 71648,
+        "table": 1442772,
+        "animation": 11,
+        "text": "落貧",
+        "pointSize": 16,
+        "spriteCount": 5,
+        "rect": {
+          "left": 92,
+          "top": 65,
+          "width": 56,
+          "height": 22
+        },
+        "layout": 1440148
+      },
+      {
+        "graphics": 1442888,
+        "graphicsBase": 71648,
+        "table": 1442772,
+        "animation": 12,
+        "text": "結束",
+        "pointSize": 16,
+        "spriteCount": 4,
+        "rect": {
+          "left": 100,
+          "top": 65,
+          "width": 40,
+          "height": 22
+        },
+        "layout": 1440280
+      },
+      {
+        "graphics": 1442888,
+        "graphicsBase": 71648,
+        "table": 1442772,
+        "animation": 13,
+        "text": "交換中",
+        "pointSize": 16,
+        "rect": {
+          "left": 84,
+          "top": 65,
+          "width": 72,
+          "height": 22
+        },
+        "parts": [
+          {
+            "text": "交",
+            "left": 0,
+            "width": 24
+          },
+          {
+            "text": "換",
+            "left": 24,
+            "width": 24
+          },
+          {
+            "text": "中",
+            "left": 48,
+            "width": 24
+          }
+        ],
+        "layout": 1440328,
+        "spriteCount": 12
+      },
+      {
+        "graphics": 1442888,
+        "graphicsBase": 71648,
+        "table": 1442772,
+        "animation": 14,
+        "text": "這張牌將交出",
+        "parts": [
+          {
+            "text": "這張牌",
+            "left": 0,
+            "width": 76,
+            "gravity": "east"
+          },
+          {
+            "text": "將交出",
+            "left": 80,
+            "width": 64,
+            "gravity": "west"
+          }
+        ],
+        "pointSize": 12,
+        "status": true,
+        "rect": {
+          "left": 48,
+          "top": 73,
+          "width": 144,
+          "height": 14
+        },
+        "layout": 1441768,
+        "spriteCount": 6
+      },
+      {
+        "graphics": 1442888,
+        "graphicsBase": 71648,
+        "table": 1442772,
+        "animation": 15,
+        "text": "這張牌已收到",
+        "parts": [
+          {
+            "text": "這張牌",
+            "left": 0,
+            "width": 76,
+            "gravity": "east"
+          },
+          {
+            "text": "已收到",
+            "left": 80,
+            "width": 96,
+            "gravity": "west"
+          }
+        ],
+        "pointSize": 12,
+        "status": true,
+        "rect": {
+          "left": 32,
+          "top": 73,
+          "width": 176,
+          "height": 14
+        },
+        "layout": 1441840,
+        "spriteCount": 6
+      },
+      {
+        "graphics": 1442888,
+        "graphicsBase": 71648,
+        "table": 1442772,
+        "animation": 16,
+        "text": "請選擇1張牌交出",
+        "parts": [
+          {
+            "text": "請選擇",
+            "left": 0,
+            "width": 84,
+            "gravity": "east"
+          },
+          {
+            "text": "1張牌交出",
+            "left": 88,
+            "width": 112,
+            "gravity": "west"
+          }
+        ],
+        "pointSize": 12,
+        "status": true,
+        "rect": {
+          "left": 20,
+          "top": 73,
+          "width": 200,
+          "height": 14
+        },
+        "layout": 1441912,
+        "spriteCount": 8
+      },
+      {
+        "graphics": 1442888,
+        "graphicsBase": 71648,
+        "table": 1442772,
+        "animation": 17,
+        "text": "請選擇2張牌交出",
+        "parts": [
+          {
+            "text": "請選擇",
+            "left": 0,
+            "width": 84,
+            "gravity": "east"
+          },
+          {
+            "text": "2張牌交出",
+            "left": 88,
+            "width": 112,
+            "gravity": "west"
+          }
+        ],
+        "pointSize": 12,
+        "status": true,
+        "rect": {
+          "left": 20,
+          "top": 73,
+          "width": 200,
+          "height": 14
+        },
+        "layout": 1442008,
+        "spriteCount": 8
+      }
+    ]
+  },
+  "flowerTextValidation": {
+    "graphics": 1296660,
+    "table": 1296200,
+    "scope": "Original sprite layouts; offline glyph checks and opening resource checks only, not natural scoring or special-rule validation.",
+    "labels": [
+      {
+        "animation": 0,
+        "text": "素牌",
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 38,
+          "height": 14
+        },
+        "pointSize": 12,
+        "fill": 5,
+        "background": 1,
+        "layout": 1290092,
+        "spriteCount": 2
+      },
+      {
+        "animation": 15,
+        "text": "短冊",
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 38,
+          "height": 14
+        },
+        "pointSize": 12,
+        "fill": 5,
+        "background": 1,
+        "layout": 1290620,
+        "spriteCount": 2
+      },
+      {
+        "animation": 21,
+        "text": "種牌",
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 38,
+          "height": 14
+        },
+        "pointSize": 12,
+        "fill": 5,
+        "background": 1,
+        "layout": 1290824,
+        "spriteCount": 2
+      },
+      {
+        "animation": 26,
+        "text": "青短",
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 38,
+          "height": 14
+        },
+        "pointSize": 12,
+        "fill": 5,
+        "background": 1,
+        "layout": 1290992,
+        "spriteCount": 2
+      },
+      {
+        "animation": 27,
+        "text": "赤短",
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 38,
+          "height": 14
+        },
+        "pointSize": 12,
+        "fill": 5,
+        "background": 1,
+        "layout": 1291016,
+        "spriteCount": 3
+      },
+      {
+        "animation": 1,
+        "text": "素",
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 23,
+          "height": 14
+        },
+        "preservedNumber": 2,
+        "pointSize": 12,
+        "fill": 5,
+        "background": 1,
+        "layout": 1290116,
+        "spriteCount": 3
+      },
+      {
+        "animation": 2,
+        "text": "素",
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 23,
+          "height": 14
+        },
+        "preservedNumber": 3,
+        "pointSize": 12,
+        "fill": 5,
+        "background": 1,
+        "layout": 1290152,
+        "spriteCount": 3
+      },
+      {
+        "animation": 3,
+        "text": "素",
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 23,
+          "height": 14
+        },
+        "preservedNumber": 4,
+        "pointSize": 12,
+        "fill": 5,
+        "background": 1,
+        "layout": 1290188,
+        "spriteCount": 3
+      },
+      {
+        "animation": 4,
+        "text": "素",
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 23,
+          "height": 14
+        },
+        "preservedNumber": 5,
+        "pointSize": 12,
+        "fill": 5,
+        "background": 1,
+        "layout": 1290224,
+        "spriteCount": 3
+      },
+      {
+        "animation": 5,
+        "text": "素",
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 23,
+          "height": 14
+        },
+        "preservedNumber": 6,
+        "pointSize": 12,
+        "fill": 5,
+        "background": 1,
+        "layout": 1290260,
+        "spriteCount": 3
+      },
+      {
+        "animation": 6,
+        "text": "素",
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 23,
+          "height": 14
+        },
+        "preservedNumber": 7,
+        "pointSize": 12,
+        "fill": 5,
+        "background": 1,
+        "layout": 1290296,
+        "spriteCount": 3
+      },
+      {
+        "animation": 7,
+        "text": "素",
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 23,
+          "height": 14
+        },
+        "preservedNumber": 8,
+        "pointSize": 12,
+        "fill": 5,
+        "background": 1,
+        "layout": 1290332,
+        "spriteCount": 3
+      },
+      {
+        "animation": 8,
+        "text": "素",
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 23,
+          "height": 14
+        },
+        "preservedNumber": 9,
+        "pointSize": 12,
+        "fill": 5,
+        "background": 1,
+        "layout": 1290368,
+        "spriteCount": 3
+      },
+      {
+        "animation": 9,
+        "text": "素",
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 23,
+          "height": 14
+        },
+        "preservedNumber": 10,
+        "pointSize": 12,
+        "fill": 5,
+        "background": 1,
+        "layout": 1290404,
+        "spriteCount": 3
+      },
+      {
+        "animation": 10,
+        "text": "素",
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 23,
+          "height": 14
+        },
+        "preservedNumber": 11,
+        "pointSize": 12,
+        "fill": 5,
+        "background": 1,
+        "layout": 1290440,
+        "spriteCount": 3
+      },
+      {
+        "animation": 11,
+        "text": "素",
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 23,
+          "height": 14
+        },
+        "preservedNumber": 12,
+        "pointSize": 12,
+        "fill": 5,
+        "background": 1,
+        "layout": 1290476,
+        "spriteCount": 3
+      },
+      {
+        "animation": 12,
+        "text": "素",
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 23,
+          "height": 14
+        },
+        "preservedNumber": 13,
+        "pointSize": 12,
+        "fill": 5,
+        "background": 1,
+        "layout": 1290512,
+        "spriteCount": 3
+      },
+      {
+        "animation": 13,
+        "text": "素",
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 23,
+          "height": 14
+        },
+        "preservedNumber": 14,
+        "pointSize": 12,
+        "fill": 5,
+        "background": 1,
+        "layout": 1290548,
+        "spriteCount": 3
+      },
+      {
+        "animation": 14,
+        "text": "素",
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 23,
+          "height": 14
+        },
+        "preservedNumber": 15,
+        "pointSize": 12,
+        "fill": 5,
+        "background": 1,
+        "layout": 1290584,
+        "spriteCount": 3
+      },
+      {
+        "animation": 16,
+        "text": "短",
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 23,
+          "height": 14
+        },
+        "preservedNumber": 2,
+        "pointSize": 12,
+        "fill": 5,
+        "background": 1,
+        "layout": 1290644,
+        "spriteCount": 3
+      },
+      {
+        "animation": 17,
+        "text": "短",
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 23,
+          "height": 14
+        },
+        "preservedNumber": 3,
+        "pointSize": 12,
+        "fill": 5,
+        "background": 1,
+        "layout": 1290680,
+        "spriteCount": 3
+      },
+      {
+        "animation": 18,
+        "text": "短",
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 23,
+          "height": 14
+        },
+        "preservedNumber": 4,
+        "pointSize": 12,
+        "fill": 5,
+        "background": 1,
+        "layout": 1290716,
+        "spriteCount": 3
+      },
+      {
+        "animation": 19,
+        "text": "短",
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 23,
+          "height": 14
+        },
+        "preservedNumber": 5,
+        "pointSize": 12,
+        "fill": 5,
+        "background": 1,
+        "layout": 1290752,
+        "spriteCount": 3
+      },
+      {
+        "animation": 20,
+        "text": "短",
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 23,
+          "height": 14
+        },
+        "preservedNumber": 6,
+        "pointSize": 12,
+        "fill": 5,
+        "background": 1,
+        "layout": 1290788,
+        "spriteCount": 3
+      },
+      {
+        "animation": 22,
+        "text": "種",
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 23,
+          "height": 14
+        },
+        "preservedNumber": 2,
+        "pointSize": 12,
+        "fill": 5,
+        "background": 1,
+        "layout": 1290848,
+        "spriteCount": 3
+      },
+      {
+        "animation": 23,
+        "text": "種",
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 23,
+          "height": 14
+        },
+        "preservedNumber": 3,
+        "pointSize": 12,
+        "fill": 5,
+        "background": 1,
+        "layout": 1290884,
+        "spriteCount": 3
+      },
+      {
+        "animation": 24,
+        "text": "種",
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 23,
+          "height": 14
+        },
+        "preservedNumber": 4,
+        "pointSize": 12,
+        "fill": 5,
+        "background": 1,
+        "layout": 1290920,
+        "spriteCount": 3
+      },
+      {
+        "animation": 25,
+        "text": "種",
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 23,
+          "height": 14
+        },
+        "preservedNumber": 5,
+        "pointSize": 12,
+        "fill": 5,
+        "background": 1,
+        "layout": 1290956,
+        "spriteCount": 3
+      },
+      {
+        "animation": 36,
+        "text": "藤島",
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 38,
+          "height": 14
+        },
+        "parts": [
+          {
+            "text": "藤",
+            "left": 0,
+            "width": 15
+          },
+          {
+            "text": "島",
+            "left": 15,
+            "width": 23
+          }
+        ],
+        "pointSize": 12,
+        "fill": 5,
+        "background": 1,
+        "layout": 1291280,
+        "spriteCount": 2
+      },
+      {
+        "animation": 37,
+        "text": "桐島",
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 38,
+          "height": 14
+        },
+        "parts": [
+          {
+            "text": "桐",
+            "left": 0,
+            "width": 15
+          },
+          {
+            "text": "島",
+            "left": 15,
+            "width": 23
+          }
+        ],
+        "pointSize": 12,
+        "fill": 5,
+        "background": 1,
+        "layout": 1291304,
+        "spriteCount": 3
+      },
+      {
+        "animation": 38,
+        "text": "雨島",
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 38,
+          "height": 14
+        },
+        "parts": [
+          {
+            "text": "雨",
+            "left": 0,
+            "width": 15
+          },
+          {
+            "text": "島",
+            "left": 15,
+            "width": 23
+          }
+        ],
+        "pointSize": 12,
+        "fill": 5,
+        "background": 1,
+        "layout": 1291340,
+        "spriteCount": 3
+      },
+      {
+        "animation": 109,
+        "text": "低分",
+        "rect": {
+          "left": 1,
+          "top": 1,
+          "width": 38,
+          "height": 14
+        },
+        "pointSize": 12,
+        "fill": 5,
+        "background": 1,
+        "layout": 1293896,
+        "spriteCount": 2
+      },
+      {
+        "animation": 39,
+        "text": "繼續",
+        "fill": 5,
+        "background": 1,
+        "rect": {
+          "left": 2,
+          "top": 1,
+          "width": 60,
+          "height": 14
+        },
+        "pointSize": 12,
+        "layout": 1292708,
+        "spriteCount": 1
+      },
+      {
+        "animation": 39,
+        "text": "結算",
+        "fill": 5,
+        "background": 1,
+        "rect": {
+          "left": 2,
+          "top": 17,
+          "width": 60,
+          "height": 14
+        },
+        "pointSize": 12,
+        "layout": 1292708,
+        "spriteCount": 1
+      },
+      {
+        "animation": 42,
+        "text": "再來",
+        "pointSize": 24,
+        "fill": 12,
+        "background": 0,
+        "outline": 8,
+        "spriteIndices": [
+          4,
+          5,
+          6
+        ],
+        "rect": {
+          "left": 58,
+          "top": 64,
+          "width": 56,
+          "height": 32
+        },
+        "layout": 1292720,
+        "spriteCount": 7
+      },
+      {
+        "animation": 42,
+        "text": "再來",
+        "pointSize": 24,
+        "fill": 12,
+        "background": 0,
+        "outline": 8,
+        "spriteIndices": [
+          1,
+          2,
+          3
+        ],
+        "rect": {
+          "left": 114,
+          "top": 64,
+          "width": 56,
+          "height": 32
+        },
+        "layout": 1292720,
+        "spriteCount": 7
+      },
+      {
+        "animation": 44,
+        "text": "結算",
+        "pointSize": 24,
+        "fill": 12,
+        "background": 0,
+        "outline": 8,
+        "spriteIndices": [
+          1,
+          2
+        ],
+        "rect": {
+          "left": 75,
+          "top": 64,
+          "width": 72,
+          "height": 32
+        },
+        "layout": 1293056,
+        "spriteCount": 3
+      }
+    ]
+  },
+  "validation": [
+    {
+      "capture": "select",
+      "graphics": 998876,
+      "graphicsBase": 73728
+    },
+    {
+      "capture": "game-menu",
+      "graphics": 998876,
+      "graphicsBase": 73728
+    },
+    {
+      "capture": "sanma",
+      "graphics": 1247056,
+      "graphicsBase": 65536
+    },
+    {
+      "capture": "mahjong-next-opening",
+      "graphics": 1257172,
+      "graphicsBase": 81920
+    },
+    {
+      "capture": "mahjong-dealt",
+      "graphics": 1236300,
+      "graphicsBase": 81920
+    },
+    {
+      "capture": "mahjong-dealt",
+      "graphics": 1236300,
+      "graphicsBase": 81920
+    },
+    {
+      "capture": "mahjong-turns-25",
+      "graphics": 1236300,
+      "graphicsBase": 81920
+    },
+    {
+      "capture": "mahjong-pon",
+      "graphics": 1236300,
+      "graphicsBase": 81920
+    },
+    {
+      "capture": "mahjong-kan-fixture",
+      "graphics": 1236300,
+      "graphicsBase": 81920
+    },
+    {
+      "capture": "mahjong-riichi-fixture",
+      "graphics": 1236300,
+      "graphicsBase": 81920
+    },
+    {
+      "capture": "mahjong-tsumo-fixture",
+      "graphics": 1236300,
+      "graphicsBase": 81920
+    },
+    {
+      "capture": "mahjong-ron-fixture",
+      "graphics": 1236300,
+      "graphicsBase": 81920
+    },
+    {
+      "capture": "mahjong-notice-51-fixture",
+      "graphics": 1236300,
+      "graphicsBase": 81920
+    },
+    {
+      "capture": "mahjong-notice-52-fixture",
+      "graphics": 1236300,
+      "graphicsBase": 81920
+    },
+    {
+      "capture": "mahjong-notice-53-fixture",
+      "graphics": 1236300,
+      "graphicsBase": 81920
+    },
+    {
+      "capture": "mahjong-notice-54-fixture",
+      "graphics": 1236300,
+      "graphicsBase": 81920
+    },
+    {
+      "capture": "mahjong-notice-55-fixture",
+      "graphics": 1236300,
+      "graphicsBase": 81920
+    },
+    {
+      "capture": "mahjong-notice-56-fixture",
+      "graphics": 1236300,
+      "graphicsBase": 81920
+    },
+    {
+      "capture": "speed-opening",
+      "graphics": 1375584,
+      "graphicsBase": 65920
+    },
+    {
+      "capture": "daifugo-page2",
+      "graphics": 1425552,
+      "graphicsBase": 88320
+    },
+    {
+      "capture": "daifugo",
+      "graphics": 1425552,
+      "graphicsBase": 88320
+    },
+    {
+      "capture": "daifugo-page3",
+      "graphics": 1425552,
+      "graphicsBase": 88320
+    },
+    {
+      "capture": "poker-opening",
+      "graphics": 1477528,
+      "graphicsBase": 65536
+    },
+    {
+      "capture": "daifugo-opening",
+      "graphics": 1435696,
+      "graphicsBase": 65536
+    },
+    {
+      "capture": "daifugo-opening",
+      "graphics": 1442888,
+      "graphicsBase": 71648
+    },
+    {
+      "capture": "koikoi-opening",
+      "graphics": 1296660,
+      "graphicsBase": 75520
+    },
+    {
+      "capture": "hanamatch-opening",
+      "graphics": 1296660,
+      "graphicsBase": 75520
+    },
+    {
+      "capture": "mahjong-pause",
+      "graphics": 1117284,
+      "graphicsBase": 0,
+      "map": 1120856,
+      "mapBase": 6144,
+      "tileBias": 0
+    },
+    {
+      "capture": "hanamatch",
+      "graphics": 1333968,
+      "graphicsBase": 37024,
+      "map": 1330848,
+      "mapBase": 53248,
+      "tileBias": 32901
+    },
+    {
+      "capture": "speed",
+      "graphics": 1380812,
+      "graphicsBase": 0,
+      "map": 1383692,
+      "mapBase": 63488,
+      "tileBias": 0
+    },
+    {
+      "capture": "daifugo",
+      "graphics": 1417100,
+      "graphicsBase": 0,
+      "map": 1415096,
+      "mapBase": 59392,
+      "tileBias": 0
+    },
+    {
+      "capture": "daifugo-page2",
+      "graphics": 1421192,
+      "graphicsBase": 0,
+      "map": 1415984,
+      "mapBase": 59392,
+      "tileBias": 0
+    },
+    {
+      "capture": "daifugo-page3",
+      "graphics": 1423272,
+      "graphicsBase": 0,
+      "map": 1416548,
+      "mapBase": 59392,
+      "tileBias": 0
+    },
+    {
+      "capture": "memory",
+      "graphics": 1537952,
+      "graphicsBase": 49152,
+      "map": 1540300,
+      "mapBase": 59392,
+      "tileBias": 61440
+    },
+    {
+      "capture": "poker",
+      "graphics": 1492732,
+      "graphicsBase": 49152,
+      "map": 1495136,
+      "mapBase": 59392,
+      "tileBias": 61440
+    },
+    {
+      "capture": "koikoi",
+      "graphics": 1331544,
+      "graphicsBase": 37024,
+      "map": 1330292,
+      "mapBase": 53248,
+      "tileBias": 32901
+    },
+    {
+      "capture": "mahjong-next",
+      "graphics": 1244108,
+      "graphicsBase": 40960,
+      "map": 1243480,
+      "mapBase": 61440,
+      "tileBias": 256
+    },
+    {
+      "capture": "mahjong",
+      "graphics": 1018356,
+      "graphicsBase": 0,
+      "map": 1017868,
+      "mapBase": 63488,
+      "tileBias": 0
+    },
+    {
+      "capture": "games",
+      "graphics": 1027144,
+      "graphicsBase": 0,
+      "map": 1026188,
+      "mapBase": 63488,
+      "tileBias": 0
+    },
+    {
+      "capture": "options",
+      "graphics": 1131996,
+      "graphicsBase": 0,
+      "map": 1134336,
+      "mapBase": 63488,
+      "tileBias": 0
+    }
+  ],
+  "patchBytes": 136416
+}
